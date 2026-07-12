@@ -205,5 +205,6 @@ echo "dummynet on lo0 proto tcp from any to any port 8888 pipe 1" | sudo pfctl -
 
 ***
 
-> **下一篇预告**：模块六 · HTTPS 与加密 — 你的数据是怎么加密的？
+> **上一篇**：[[TCP四次挥手与可靠传输]]  
+> **下一篇**：[[HTTPS与加密：你的数据是这样被保护的]]
 

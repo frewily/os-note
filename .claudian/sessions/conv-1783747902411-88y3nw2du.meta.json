@@ -4,22 +4,21 @@
   "title": "Answer model identity question",
   "titleGenerationStatus": "success",
   "createdAt": 1783747902415,
-  "updatedAt": 1783747937954,
-  "lastResponseAt": 1783747937954,
+  "updatedAt": 1783823373410,
+  "lastResponseAt": 1783823373410,
   "sessionId": "f6e32b56-40d9-4282-a902-f7c50720a024",
   "selectedModel": "haiku",
   "providerState": {
     "providerSessionId": "f6e32b56-40d9-4282-a902-f7c50720a024"
   },
-  "currentNote": "未命名.md",
   "usage": {
     "model": "haiku",
-    "inputTokens": 15,
+    "inputTokens": 387,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 19584,
+    "cacheReadInputTokens": 100224,
     "contextWindow": 200000,
-    "contextTokens": 19599,
-    "percentage": 10,
+    "contextTokens": 100611,
+    "percentage": 50,
     "contextWindowIsAuthoritative": true
   }
 }
