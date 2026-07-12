@@ -1,0 +1,25 @@
+{
+  "id": "conv-1783747902411-88y3nw2du",
+  "providerId": "claude",
+  "title": "Answer model identity question",
+  "titleGenerationStatus": "success",
+  "createdAt": 1783747902415,
+  "updatedAt": 1783747937954,
+  "lastResponseAt": 1783747937954,
+  "sessionId": "f6e32b56-40d9-4282-a902-f7c50720a024",
+  "selectedModel": "haiku",
+  "providerState": {
+    "providerSessionId": "f6e32b56-40d9-4282-a902-f7c50720a024"
+  },
+  "currentNote": "未命名.md",
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 15,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 19584,
+    "contextWindow": 200000,
+    "contextTokens": 19599,
+    "percentage": 10,
+    "contextWindowIsAuthoritative": true
+  }
+}
