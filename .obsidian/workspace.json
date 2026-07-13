@@ -11,10 +11,14 @@
             "id": "51e7e7a599f1023a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "JAVA-AI成长路线/八股/interview_副本/references/Java集合/HashMap原理.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "HashMap原理"
             }
           }
         ]
@@ -186,7 +190,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 375.5
+    "width": 375.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -204,41 +209,41 @@
   },
   "active": "2e0eef55b9f70636",
   "lastOpenFiles": [
-    "JAVA-AI成长路线/Java-AI工程方向成长路线规划.md",
-    "JAVA-AI成长路线/八股/Java-AI工程方向成长路线规划.md",
-    "JAVA-AI成长路线/八股/interview_副本/references/Java集合/HashMap原理.md",
+    "JAVA-AI成长路线_副本/算法套路",
+    "JAVA-AI成长路线_副本/项目复盘",
+    "JAVA-AI成长路线_副本/计算机网络/计网知识在后端工程中的运用.md",
+    "JAVA-AI成长路线_副本/计算机网络/计网查漏补缺：剩下的20%知识点.md",
+    "JAVA-AI成长路线_副本/计算机网络/计算机网络-任务驱动学习计划.md",
+    "JAVA-AI成长路线_副本/计算机网络/网络分层模型：一张图串起所有协议.md",
+    "JAVA-AI成长路线_副本/计算机网络/第一次抓包：我看到了网络请求的样子.md",
+    "JAVA-AI成长路线_副本/计算机网络/未命名.md",
+    "JAVA-AI成长路线_副本/计算机网络/学长六问：协议分工、分层封装、TCP开销与协议设计.md",
+    "JAVA-AI成长路线_副本/计算机网络/从输入URL到页面展示：一次完整的网络旅行.md",
+    "JAVA-AI成长路线_副本/计算机网络/TCP拥塞控制：网络塞车了怎么办.md",
+    "JAVA-AI成长路线_副本/计算机网络/TCP四次挥手与可靠传输.md",
+    "JAVA-AI成长路线_副本/计算机网络/TCP三次握手：我用Java亲手建立了一条连接.md",
+    "JAVA-AI成长路线_副本/计算机网络/Java-AI工程方向成长路线规划.md",
+    "JAVA-AI成长路线_副本/计算机网络/HTTPS与加密：你的数据是这样被保护的.md",
+    "JAVA-AI成长路线_副本/计算机网络/DNS解析：从域名到IP发生了什么.md",
+    "JAVA-AI成长路线_副本/计算机网络",
+    "JAVA-AI成长路线_副本/八股/interview_副本/references/Java集合/HashMap原理.md",
+    "JAVA-AI成长路线_副本/八股/interview_副本/references/Java集合/HashMap1.7vs1.8区别.md",
+    "JAVA-AI成长路线_副本/八股/interview_副本/references/Java集合/ConcurrentHashMap线程安全.md",
+    "JAVA-AI成长路线_副本/八股/interview_副本/references/Java集合",
+    "JAVA-AI成长路线_副本/八股/interview_副本/八股题集.md",
+    "JAVA-AI成长路线_副本/八股/interview_副本/八股笔记.md",
+    "JAVA-AI成长路线_副本/八股/interview_副本/八股学习指南.md",
+    "JAVA-AI成长路线_副本/八股/interview_副本/八股复习追踪表.md",
+    "JAVA-AI成长路线_副本/八股/interview_副本/references",
+    "JAVA-AI成长路线_副本/八股/interview_副本",
+    "JAVA-AI成长路线_副本/八股",
+    "JAVA-AI成长路线_副本/JVM",
+    "JAVA-AI成长路线_副本/Java-AI工程方向成长路线规划.md",
+    "JAVA-AI成长路线_副本",
     "JAVA-AI成长路线/八股/interview_副本/references/Java集合/HashMap1.7vs1.8区别.md",
     "JAVA-AI成长路线/八股/interview_副本/references/Java集合/ConcurrentHashMap线程安全.md",
+    "JAVA-AI成长路线/Java-AI工程方向成长路线规划.md",
     "JAVA-AI成长路线/八股/interview_副本/references/Java集合",
-    "JAVA-AI成长路线/八股/interview_副本/八股题集.md",
-    "JAVA-AI成长路线/八股/interview_副本/八股笔记.md",
-    "JAVA-AI成长路线/八股/interview_副本/八股学习指南.md",
-    "JAVA-AI成长路线/八股/interview_副本/八股复习追踪表.md",
-    "JAVA-AI成长路线/八股/interview_副本/references",
-    "JAVA-AI成长路线/八股/interview_副本",
-    "JAVA-AI成长路线/项目复盘",
-    "JAVA-AI成长路线/未命名文件夹",
-    "JAVA-AI成长路线/算法套路",
-    "JAVA-AI成长路线/八股",
-    "JAVA-AI成长路线/JVM",
-    "JAVA-AI成长路线/计算机网络/计网知识在后端工程中的运用.md",
-    "JAVA-AI成长路线/计算机网络/计网查漏补缺：剩下的20%知识点.md",
-    "JAVA-AI成长路线/计算机网络/计算机网络-任务驱动学习计划.md",
-    "JAVA-AI成长路线/计算机网络/网络分层模型：一张图串起所有协议.md",
-    "JAVA-AI成长路线/计算机网络/第一次抓包：我看到了网络请求的样子.md",
-    "JAVA-AI成长路线/计算机网络/未命名.md",
-    "JAVA-AI成长路线/计算机网络/学长六问：协议分工、分层封装、TCP开销与协议设计.md",
-    "JAVA-AI成长路线/计算机网络/从输入URL到页面展示：一次完整的网络旅行.md",
-    "JAVA-AI成长路线/计算机网络/TCP拥塞控制：网络塞车了怎么办.md",
-    "JAVA-AI成长路线/计算机网络/TCP四次挥手与可靠传输.md",
-    "JAVA-AI成长路线/计算机网络/TCP三次握手：我用Java亲手建立了一条连接.md",
-    "JAVA-AI成长路线/计算机网络/Java-AI工程方向成长路线规划.md",
-    "JAVA-AI成长路线/计算机网络/HTTPS与加密：你的数据是这样被保护的.md",
-    "JAVA-AI成长路线/计算机网络/DNS解析：从域名到IP发生了什么.md",
-    "JAVA-AI成长路线/计算机网络",
-    "JAVA-AI成长路线",
-    "计算机网络/TCP拥塞控制：网络塞车了怎么办.md",
-    "计算机网络/TCP四次挥手与可靠传输.md",
-    "计算机网络/TCP三次握手：我用Java亲手建立了一条连接.md"
+    "JAVA-AI成长路线/八股/interview_副本/references"
   ]
 }
