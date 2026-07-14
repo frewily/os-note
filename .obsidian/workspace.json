@@ -11,10 +11,14 @@
             "id": "51e7e7a599f1023a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Clippings/🔥 面向大厂的后端Agent学习路线.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "🔥 面向大厂的后端Agent学习路线"
             }
           }
         ]
@@ -187,7 +191,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 569.5
+    "width": 546.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -203,8 +207,10 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "100206d855390f33",
+  "active": "51e7e7a599f1023a",
   "lastOpenFiles": [
+    "Clippings/🔥 面向大厂的后端Agent学习路线.md",
+    "Clippings",
     "JAVA-AI成长路线/八股/interview_副本/references/Java集合/HashMap原理.md",
     "JAVA-AI成长路线/八股/Java集合/ConcurrentHashMap线程安全.md",
     "JAVA-AI成长路线/八股/Java集合/HashMap1.7vs1.8区别.md",
@@ -235,11 +241,9 @@
     "JAVA-AI成长路线_副本/计算机网络",
     "JAVA-AI成长路线_副本/八股/interview_副本/references/Java集合/HashMap原理.md",
     "JAVA-AI成长路线_副本/八股/interview_副本/references/Java集合/HashMap1.7vs1.8区别.md",
-    "JAVA-AI成长路线_副本/八股/interview_副本/references/Java集合/ConcurrentHashMap线程安全.md",
     "JAVA-AI成长路线_副本/八股/interview_副本/references/Java集合",
     "JAVA-AI成长路线_副本/八股/interview_副本/references",
     "JAVA-AI成长路线_副本/八股/interview_副本",
-    "JAVA-AI成长路线_副本/八股",
-    "JAVA-AI成长路线_副本/JVM"
+    "JAVA-AI成长路线_副本/八股"
   ]
 }
