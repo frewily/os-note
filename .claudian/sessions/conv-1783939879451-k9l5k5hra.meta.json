@@ -1,0 +1,24 @@
+{
+  "id": "conv-1783939879451-k9l5k5hra",
+  "providerId": "claude",
+  "title": "Analyze current project structure",
+  "titleGenerationStatus": "success",
+  "createdAt": 1783939879457,
+  "updatedAt": 1783939905386,
+  "lastResponseAt": 1783939899340,
+  "sessionId": "3dc86337-1505-41b0-a15f-6bbeeaf07c23",
+  "selectedModel": "sonnet",
+  "providerState": {
+    "providerSessionId": "3dc86337-1505-41b0-a15f-6bbeeaf07c23"
+  },
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 6695,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 28032,
+    "contextWindow": 200000,
+    "contextTokens": 34727,
+    "percentage": 17,
+    "contextWindowIsAuthoritative": true
+  }
+}

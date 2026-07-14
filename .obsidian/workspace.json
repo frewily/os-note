@@ -74,7 +74,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "ca7917e42fddb40d",
@@ -186,8 +187,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 375.5,
-    "collapsed": true
+    "width": 569.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -203,8 +203,9 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "2e0eef55b9f70636",
+  "active": "100206d855390f33",
   "lastOpenFiles": [
+    "JAVA-AI成长路线/八股/interview_副本/references/Java集合/HashMap原理.md",
     "JAVA-AI成长路线/八股/Java集合/ConcurrentHashMap线程安全.md",
     "JAVA-AI成长路线/八股/Java集合/HashMap1.7vs1.8区别.md",
     "JAVA-AI成长路线/八股/Java集合/HashMap原理.md",
@@ -236,7 +237,6 @@
     "JAVA-AI成长路线_副本/八股/interview_副本/references/Java集合/HashMap1.7vs1.8区别.md",
     "JAVA-AI成长路线_副本/八股/interview_副本/references/Java集合/ConcurrentHashMap线程安全.md",
     "JAVA-AI成长路线_副本/八股/interview_副本/references/Java集合",
-    "JAVA-AI成长路线_副本/八股/interview_副本/八股题集.md",
     "JAVA-AI成长路线_副本/八股/interview_副本/references",
     "JAVA-AI成长路线_副本/八股/interview_副本",
     "JAVA-AI成长路线_副本/八股",

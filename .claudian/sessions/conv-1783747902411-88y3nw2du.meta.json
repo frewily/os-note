@@ -4,10 +4,10 @@
   "title": "Answer model identity question",
   "titleGenerationStatus": "success",
   "createdAt": 1783747902415,
-  "updatedAt": 1783823373410,
+  "updatedAt": 1783939822543,
   "lastResponseAt": 1783823373410,
   "sessionId": "f6e32b56-40d9-4282-a902-f7c50720a024",
-  "selectedModel": "haiku",
+  "selectedModel": "sonnet",
   "providerState": {
     "providerSessionId": "f6e32b56-40d9-4282-a902-f7c50720a024"
   },
