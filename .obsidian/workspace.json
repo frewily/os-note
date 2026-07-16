@@ -11,13 +11,14 @@
             "id": "a0c1ab2c58b14e90",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "未命名.base",
-                "viewName": "表格"
+                "file": "🔥 面向大厂的后端_Agent学习路线.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-table",
-              "title": "未命名"
+              "icon": "lucide-file",
+              "title": "🔥 面向大厂的后端_Agent学习路线"
             }
           }
         ]
@@ -155,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "未命名.base",
+                "file": "🔥 面向大厂的后端_Agent学习路线.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "未命名 的大纲"
+              "title": "🔥 面向大厂的后端_Agent学习路线 的大纲"
             }
           },
           {
@@ -190,18 +191,18 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "未命名.base"
+                "file": "🔥 面向大厂的后端_Agent学习路线.md"
               },
               "icon": "lucide-info",
-              "title": "未命名的笔记属性"
+              "title": "🔥 面向大厂的后端_Agent学习路线的笔记属性"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 546.5
+    "width": 557.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -219,8 +220,8 @@
   },
   "active": "a0c1ab2c58b14e90",
   "lastOpenFiles": [
-    "🔥 面向大厂的后端_Agent学习路线.md",
     "未命名.base",
+    "🔥 面向大厂的后端_Agent学习路线.md",
     "Clippings/🔥 面向大厂的后端Agent学习路线.md",
     "未命名.md",
     "Clippings",
