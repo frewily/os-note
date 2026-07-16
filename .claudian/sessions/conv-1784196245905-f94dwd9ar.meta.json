@@ -4,8 +4,8 @@
   "title": "List available skills",
   "titleGenerationStatus": "success",
   "createdAt": 1784196245906,
-  "updatedAt": 1784196878821,
-  "lastResponseAt": 1784196878821,
+  "updatedAt": 1784197474149,
+  "lastResponseAt": 1784197474149,
   "sessionId": "dfe0ebfd-b6a0-4d68-b430-717133bb8875",
   "selectedModel": "haiku",
   "providerState": {
@@ -13,11 +13,11 @@
   },
   "usage": {
     "model": "haiku",
-    "inputTokens": 692,
+    "inputTokens": 120,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 20608,
+    "cacheReadInputTokens": 21504,
     "contextWindow": 200000,
-    "contextTokens": 21300,
+    "contextTokens": 21624,
     "percentage": 11,
     "contextWindowIsAuthoritative": true
   }

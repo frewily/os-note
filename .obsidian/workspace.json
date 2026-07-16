@@ -11,13 +11,14 @@
             "id": "a0c1ab2c58b14e90",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "未命名.base",
-                "viewName": "表格"
+                "file": "JAVA-AI成长路线/JavaSE/5-异常体系.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-table",
-              "title": "未命名"
+              "icon": "lucide-file",
+              "title": "5-异常体系"
             }
           }
         ]
@@ -155,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "未命名.base",
+                "file": "JAVA-AI成长路线/JavaSE/5-异常体系.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "未命名 的大纲"
+              "title": "5-异常体系 的大纲"
             }
           },
           {
@@ -190,10 +191,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "未命名.base"
+                "file": "JAVA-AI成长路线/JavaSE/5-异常体系.md"
               },
               "icon": "lucide-info",
-              "title": "未命名的笔记属性"
+              "title": "5-异常体系的笔记属性"
             }
           }
         ],
@@ -219,6 +220,8 @@
   },
   "active": "a0c1ab2c58b14e90",
   "lastOpenFiles": [
+    "🔥 面向大厂的后端_Agent学习路线.md",
+    "未命名.base",
     "未命名.md",
     "JAVA-AI成长路线/JavaSE/5-异常体系.md",
     "JAVA-AI成长路线/JavaSE/4-String 系列.md",
@@ -230,9 +233,7 @@
     "JAVA-AI成长路线/JavaSE/2-接口与抽象类.md",
     "JAVA-AI成长路线/JavaSE/规则说明.md",
     "JAVA-AI成长路线/JavaSE/6-泛型.md",
-    "🔥 面向大厂的后端_Agent学习路线.md",
     "JAVA-AI成长路线/JavaSE",
-    "未命名.base",
     "Clippings/🔥 面向大厂的后端Agent学习路线.md",
     "Clippings",
     "JAVA-AI成长路线/八股/interview_副本/references/Java集合/HashMap原理.md",
@@ -252,7 +253,6 @@
     "JAVA-AI成长路线_副本/计算机网络/计网查漏补缺：剩下的20%知识点.md",
     "JAVA-AI成长路线_副本/计算机网络/计算机网络-任务驱动学习计划.md",
     "JAVA-AI成长路线_副本/计算机网络/网络分层模型：一张图串起所有协议.md",
-    "JAVA-AI成长路线_副本/计算机网络/第一次抓包：我看到了网络请求的样子.md",
     "JAVA-AI成长路线_副本/计算机网络",
     "JAVA-AI成长路线_副本/八股/interview_副本/references/Java集合"
   ]
