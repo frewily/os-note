@@ -11,14 +11,13 @@
             "id": "a0c1ab2c58b14e90",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "JAVA-AI成长路线/JavaSE/4-String 系列.md",
-                "mode": "preview",
-                "source": false
+                "file": "未命名.base",
+                "viewName": "表格"
               },
-              "icon": "lucide-file",
-              "title": "4-String 系列"
+              "icon": "lucide-table",
+              "title": "未命名"
             }
           }
         ]
@@ -41,7 +40,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -156,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JAVA-AI成长路线/JavaSE/4-String 系列.md",
+                "file": "未命名.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "4-String 系列 的大纲"
+              "title": "未命名 的大纲"
             }
           },
           {
@@ -191,10 +190,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "JAVA-AI成长路线/JavaSE/4-String 系列.md"
+                "file": "未命名.base"
               },
               "icon": "lucide-info",
-              "title": "4-String 系列的笔记属性"
+              "title": "未命名的笔记属性"
             }
           }
         ],
@@ -218,10 +217,12 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "2e0eef55b9f70636",
+  "active": "a0c1ab2c58b14e90",
   "lastOpenFiles": [
-    "JAVA-AI成长路线/JavaSE/Drawing 2026-07-16 18.20.57.excalidraw.md",
+    "未命名.md",
+    "JAVA-AI成长路线/JavaSE/5-异常体系.md",
     "JAVA-AI成长路线/JavaSE/4-String 系列.md",
+    "JAVA-AI成长路线/JavaSE/Drawing 2026-07-16 18.20.57.excalidraw.md",
     "Excalidraw/Drawing 2026-07-16 18.20.02.excalidraw.md",
     "Excalidraw",
     "JAVA-AI成长路线/JavaSE/3-== 与 equals.md",
@@ -229,12 +230,10 @@
     "JAVA-AI成长路线/JavaSE/2-接口与抽象类.md",
     "JAVA-AI成长路线/JavaSE/规则说明.md",
     "JAVA-AI成长路线/JavaSE/6-泛型.md",
-    "JAVA-AI成长路线/JavaSE/5-异常体系.md",
     "🔥 面向大厂的后端_Agent学习路线.md",
     "JAVA-AI成长路线/JavaSE",
     "未命名.base",
     "Clippings/🔥 面向大厂的后端Agent学习路线.md",
-    "未命名.md",
     "Clippings",
     "JAVA-AI成长路线/八股/interview_副本/references/Java集合/HashMap原理.md",
     "JAVA-AI成长路线/八股/Java集合/ConcurrentHashMap线程安全.md",
