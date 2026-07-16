@@ -4,8 +4,8 @@
   "title": "Analyze current project structure",
   "titleGenerationStatus": "success",
   "createdAt": 1783939879457,
-  "updatedAt": 1784191698353,
-  "lastResponseAt": 1784191698353,
+  "updatedAt": 1784196595784,
+  "lastResponseAt": 1784196595784,
   "sessionId": "3dc86337-1505-41b0-a15f-6bbeeaf07c23",
   "selectedModel": "sonnet",
   "providerState": {
@@ -13,12 +13,12 @@
   },
   "usage": {
     "model": "sonnet",
-    "inputTokens": 1086,
+    "inputTokens": 431,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 60672,
+    "cacheReadInputTokens": 66816,
     "contextWindow": 1000000,
-    "contextTokens": 61758,
-    "percentage": 6,
+    "contextTokens": 67247,
+    "percentage": 7,
     "contextWindowIsAuthoritative": true
   }
 }

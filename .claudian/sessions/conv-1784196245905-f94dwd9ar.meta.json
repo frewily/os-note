@@ -1,0 +1,24 @@
+{
+  "id": "conv-1784196245905-f94dwd9ar",
+  "providerId": "claude",
+  "title": "List available skills",
+  "titleGenerationStatus": "success",
+  "createdAt": 1784196245906,
+  "updatedAt": 1784196251298,
+  "lastResponseAt": 1784196251298,
+  "sessionId": "dfe0ebfd-b6a0-4d68-b430-717133bb8875",
+  "selectedModel": "haiku",
+  "providerState": {
+    "providerSessionId": "dfe0ebfd-b6a0-4d68-b430-717133bb8875"
+  },
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 20713,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 20713,
+    "percentage": 10,
+    "contextWindowIsAuthoritative": true
+  }
+}

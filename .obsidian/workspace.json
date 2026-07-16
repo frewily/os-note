@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA-AI成长路线/JavaSE/规则说明.md",
+                "file": "JAVA-AI成长路线/JavaSE/2-接口与抽象类.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "规则说明"
+              "title": "2-接口与抽象类"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JAVA-AI成长路线/JavaSE/规则说明.md",
+                "file": "JAVA-AI成长路线/JavaSE/2-接口与抽象类.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "规则说明 的大纲"
+              "title": "2-接口与抽象类 的大纲"
             }
           },
           {
@@ -191,10 +191,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "JAVA-AI成长路线/JavaSE/规则说明.md"
+                "file": "JAVA-AI成长路线/JavaSE/2-接口与抽象类.md"
               },
               "icon": "lucide-info",
-              "title": "规则说明的笔记属性"
+              "title": "2-接口与抽象类的笔记属性"
             }
           }
         ],
@@ -221,8 +221,13 @@
   "active": "a0c1ab2c58b14e90",
   "lastOpenFiles": [
     "JAVA-AI成长路线/JavaSE/1-面向对象三大特性.md",
-    "🔥 面向大厂的后端_Agent学习路线.md",
+    "JAVA-AI成长路线/JavaSE/6-泛型.md",
+    "JAVA-AI成长路线/JavaSE/5-异常体系.md",
+    "JAVA-AI成长路线/JavaSE/4-String 系列.md",
+    "JAVA-AI成长路线/JavaSE/3-== 与 equals.md",
+    "JAVA-AI成长路线/JavaSE/2-接口与抽象类.md",
     "JAVA-AI成长路线/JavaSE/规则说明.md",
+    "🔥 面向大厂的后端_Agent学习路线.md",
     "JAVA-AI成长路线/JavaSE",
     "未命名.base",
     "Clippings/🔥 面向大厂的后端Agent学习路线.md",
@@ -248,11 +253,6 @@
     "JAVA-AI成长路线_副本/计算机网络/第一次抓包：我看到了网络请求的样子.md",
     "JAVA-AI成长路线_副本/计算机网络/未命名.md",
     "JAVA-AI成长路线_副本/计算机网络/学长六问：协议分工、分层封装、TCP开销与协议设计.md",
-    "JAVA-AI成长路线_副本/计算机网络/从输入URL到页面展示：一次完整的网络旅行.md",
-    "JAVA-AI成长路线_副本/计算机网络/TCP拥塞控制：网络塞车了怎么办.md",
-    "JAVA-AI成长路线_副本/计算机网络/TCP四次挥手与可靠传输.md",
-    "JAVA-AI成长路线_副本/计算机网络/TCP三次握手：我用Java亲手建立了一条连接.md",
-    "JAVA-AI成长路线_副本/计算机网络/Java-AI工程方向成长路线规划.md",
     "JAVA-AI成长路线_副本/计算机网络",
     "JAVA-AI成长路线_副本/八股/interview_副本/references/Java集合",
     "JAVA-AI成长路线_副本/八股/interview_副本/references"
