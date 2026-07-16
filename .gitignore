@@ -1,2 +1,9 @@
-.obsidian/workspace.json 
+# macOS
+.DS_Store
+
+# Obsidian workspace (machine-local, contains window positions)
+.obsidian/workspace.json
 .obsidian/workspace-mobile.json
+
+# Claude Code session files (local conversations)
+.claudian/sessions/
