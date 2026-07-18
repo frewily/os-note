@@ -76,7 +76,9 @@ lock.lockInterruptibly();  // 其他线程可以中断当前线程的等待
 
 ---
 
-<!-- 无强关联知识点，Lock 是 synchronized 的进阶替代方案，已由 synchronized 建立连接 -->
+## 关联知识点
+
+- [[index]] — 返回知识地图
 
 ---
 

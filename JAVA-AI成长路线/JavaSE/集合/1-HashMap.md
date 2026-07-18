@@ -84,6 +84,7 @@ HashMap **不是线程安全的**。多线程并发 put 可能导致：
 
 ## 关联知识点
 
+- [[index]] — 返回知识地图
 - [[集合/2-ConcurrentHashMap]] — 多线程场景下 HashMap 的替代方案
 - [[集合/4-HashSet]] — HashSet 底层直接使用 HashMap 存储数据
 

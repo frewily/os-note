@@ -78,6 +78,7 @@ count++;  // 不是原子操作！→ 读取 + 加一 + 写入，三步可能被
 
 ## 关联知识点
 
+- [[index]] — 返回知识地图
 - [[并发/1-synchronized 原理]] — volatile 只保证可见性，synchronized 保证可见性 + 原子性
 
 ---
