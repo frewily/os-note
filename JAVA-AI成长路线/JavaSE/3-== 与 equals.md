@@ -90,7 +90,7 @@ AI 生成的代码中，`==` 和 `equals` 的用法通常正确。阅读代码�
 
 ## 关联知识点
 
-- [[index]] — 返回知识地图
+- [[JavaSE]] — 返回知识地图
 - [[4-String 系列]] — String 重写了 equals，是比较字符串内容的关键
 - [[集合/1-HashMap]] — HashMap 依赖 equals + hashCode 判断 key 是否相等
 

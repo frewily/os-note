@@ -79,7 +79,7 @@ public class Counter {
 
 ## 关联知识点
 
-- [[index]] — 返回知识地图
+- [[../JavaSE]] — 返回知识地图
 - [[并发/6-多线程基础]] — synchronized 解决多线程竞争共享资源的问题
 - [[并发/5-Lock]] — Lock 是 synchronized 之外的另一种锁机制，提供更灵活的控制
 

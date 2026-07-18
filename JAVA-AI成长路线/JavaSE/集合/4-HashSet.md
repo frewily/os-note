@@ -91,7 +91,7 @@ set.remove("apple");
 
 ## 关联知识点
 
-- [[index]] — 返回知识地图
+- [[../JavaSE]] — 返回知识地图
 - [[集合/1-HashMap]] — HashSet 底层直接使用 HashMap，元素作为 key 存储
 
 ---
