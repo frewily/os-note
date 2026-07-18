@@ -62,7 +62,6 @@ cache.forEach((k, v) -> { ... });  // 安全遍历
 
 - [[集合/1-HashMap]] — ConcurrentHashMap 是 HashMap 的线程安全版本
 - [[并发/1-synchronized 原理]] — JDK 8 使用 synchronized 锁头节点保证线程安全
-- [[并发/2-volatile 关键字]] — Node 的 val 和 next 用 volatile 保证可见性
 
 ---
 

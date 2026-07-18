@@ -151,8 +151,6 @@ List<Long> ids =
 ## 关联知识点
 
 - [[6-泛型]] — Stream 的方法签名（如 `Stream<T>`）依靠泛型实现类型安全
-- [[集合/3-ArrayList vs LinkedList]] — Stream 通常操作集合数据
-- [[5-异常体系]] — Lambda 中异常处理需注意，无法直接在外层 try-catch
 
 ---
 

@@ -92,7 +92,6 @@ set.remove("apple");
 ## 关联知识点
 
 - [[集合/1-HashMap]] — HashSet 底层直接使用 HashMap，元素作为 key 存储
-- [[3-== 与 equals]] — 放入 HashSet 的自定义对象必须重写 equals + hashCode
 
 ---
 

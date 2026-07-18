@@ -76,10 +76,7 @@ lock.lockInterruptibly();  // 其他线程可以中断当前线程的等待
 
 ---
 
-## 关联知识点
-
-- [[并发/1-synchronized 原理]] — Lock 和 synchronized 解决相同问题，用法不同
-- [[并发/6-多线程基础]] — Lock 用于复杂的多线程同步场景
+<!-- 无强关联知识点，Lock 是 synchronized 的进阶替代方案，已由 synchronized 建立连接 -->
 
 ---
 
