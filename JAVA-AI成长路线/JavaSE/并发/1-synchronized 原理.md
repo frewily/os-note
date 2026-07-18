@@ -77,6 +77,14 @@ public class Counter {
 
 ---
 
+## 关联知识点
+
+- [[并发/6-多线程基础]] — synchronized 解决多线程竞争共享资源的问题
+- [[并发/5-Lock]] — Lock 是 synchronized 之外的另一种锁机制，提供更灵活的控制
+- [[集合/2-ConcurrentHashMap]] — ConcurrentHashMap 内部使用 synchronized 锁头节点
+
+---
+
 ## 项目关联
 
 | 场景 | 说明 |

@@ -88,6 +88,14 @@ AI 生成的代码中，`==` 和 `equals` 的用法通常正确。阅读代码�
 
 ---
 
+## 关联知识点
+
+- [[4-String 系列]] — String 重写了 equals，是比较字符串内容的关键
+- [[集合/1-HashMap]] — HashMap 依赖 equals + hashCode 判断 key 是否相等
+- [[集合/4-HashSet]] — HashSet 底层依赖 HashMap，同理依赖 equals + hashCode
+
+---
+
 ## 项目关联
 
 | 场景 | 说明 |

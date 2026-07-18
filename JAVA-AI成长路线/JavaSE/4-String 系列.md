@@ -57,6 +57,13 @@ return sb.toString();
 
 ---
 
+## 关联知识点
+
+- [[3-== 与 equals]] — 字符串常量池机制直接影响 == 的比较结果
+- [[集合/1-HashMap]] — String 常作为 HashMap key，不可变性保证 key 不変
+
+---
+
 ## 项目关联
 
 | 场景 | 选用 | 原因 |
