@@ -7,7 +7,8 @@
 
 ## SQL 基础
 
-- [[0-SQL 基础]] — JOIN、聚合、子查询，看懂 AI 写的 SQL
+- [[0-SQL 查询]] — SELECT、WHERE、JOIN、分组、子查询
+- [[0a-SQL 操作与数据类型]] — INSERT/UPDATE/DELETE、建表、常用函数
 
 ## 索引
 
