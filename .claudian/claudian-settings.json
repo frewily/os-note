@@ -30,10 +30,10 @@
       "loadUserSettings": true,
       "enableChrome": false,
       "enableBangBash": false,
-      "enableOpus1M": false,
-      "enableSonnet1M": false,
       "customModels": "",
       "lastModel": "haiku",
+      "modelEnvironmentType": "",
+      "titleModelEnvironmentType": "",
       "environmentVariables": "",
       "environmentHash": ""
     },
@@ -48,7 +48,11 @@
       "environmentVariables": "",
       "environmentHash": "",
       "installationMethodsByHost": {},
-      "wslDistroOverridesByHost": {}
+      "wslDistroOverridesByHost": {},
+      "discoveredModels": [],
+      "modelAliases": {},
+      "catalogTimestamp": 0,
+      "catalogFingerprint": ""
     },
     "opencode": {
       "cliPath": "",
@@ -73,6 +77,18 @@
       "preferredThinkingByModel": {},
       "toolMode": "all",
       "visibleModels": []
+    },
+    "grok": {
+      "catalogsByHost": {},
+      "cliPath": "",
+      "cliPathsByHost": {},
+      "enabled": false,
+      "environmentHash": "",
+      "environmentVariables": "",
+      "modelAliases": {},
+      "planBasePermissionMode": "normal",
+      "preferredReasoningByModel": {},
+      "visibleModels": null
     }
   },
   "settingsProvider": "claude",
@@ -87,6 +103,7 @@
   "savedProviderPermissionMode": {
     "claude": "yolo"
   },
+  "pendingProviderSessionInvalidations": {},
   "lastCustomModel": "",
   "maxTabs": 3,
   "enableAutoScroll": true,
