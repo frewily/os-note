@@ -10,10 +10,11 @@
         "conversationId": "conv-1783939879451-k9l5k5hra"
       },
       {
+        "draftModel": "haiku",
         "tabId": "tab-1784190998990-uuj170i",
-        "conversationId": "conv-1784803452417-q1nndkkyf"
+        "conversationId": "conv-1784818016327-dh3134nef"
       }
     ],
-    "activeTabId": "tab-1783939831053-y4o0gku"
+    "activeTabId": "tab-1784190998990-uuj170i"
   }
 }
