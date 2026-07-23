@@ -5,5 +5,12 @@
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
 
+# Obsidian plugin binaries (re-downloadable from community plugins)
+.obsidian/plugins/*/main.js
+.obsidian/plugins/*/styles.css
+
+# Obsidian plugin data (machine-local config, may contain API keys/certs)
+.obsidian/plugins/*/data.json
+
 # Claude Code session files (local conversations)
 .claudian/sessions/
