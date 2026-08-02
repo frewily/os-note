@@ -14,3 +14,7 @@
 
 # Claude Code session files (local conversations)
 .claudian/sessions/
+
+# Python (blog sync script)
+__pycache__/
+*.pyc
