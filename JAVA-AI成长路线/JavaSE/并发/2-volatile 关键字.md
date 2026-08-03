@@ -1,3 +1,7 @@
+---
+publish: true
+---
+
 # volatile 关键字
 
 ---

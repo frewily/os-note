@@ -1,3 +1,7 @@
+---
+publish: true
+---
+
 # Spring Boot 知识地图
 
 > Spring Boot 核心机制梳理，面向 AI 辅助开发（vibe coding）视角。

@@ -1,3 +1,7 @@
+---
+publish: true
+---
+
 # ArrayList vs LinkedList
 
 ---

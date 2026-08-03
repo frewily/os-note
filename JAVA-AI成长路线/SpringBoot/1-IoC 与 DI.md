@@ -1,3 +1,7 @@
+---
+publish: true
+---
+
 # IoC 与 DI
 
 ---

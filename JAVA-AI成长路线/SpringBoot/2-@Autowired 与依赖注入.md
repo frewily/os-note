@@ -1,3 +1,7 @@
+---
+publish: true
+---
+
 # @Autowired 与依赖注入
 
 ---

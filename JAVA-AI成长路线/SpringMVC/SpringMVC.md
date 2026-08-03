@@ -1,3 +1,7 @@
+---
+publish: true
+---
+
 # SpringMVC 知识地图
 
 > SpringMVC 核心请求处理机制，聚焦 REST API 场景。与 [[SpringBoot/SpringBoot|Spring Boot 模块]]互补。

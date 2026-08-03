@@ -1,3 +1,7 @@
+---
+publish: true
+---
+
 # SQL 查询
 
 ---

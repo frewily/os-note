@@ -1,3 +1,7 @@
+---
+publish: true
+---
+
 # AOP 原理
 
 ---

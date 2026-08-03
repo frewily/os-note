@@ -1,3 +1,7 @@
+---
+publish: true
+---
+
 # MyBatis 基础
 
 ---

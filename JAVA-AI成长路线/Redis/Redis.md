@@ -1,3 +1,7 @@
+---
+publish: true
+---
+
 # Redis 知识地图
 
 > Redis 核心知识梳理，面向 AI 辅助开发（vibe coding）视角。

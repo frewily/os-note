@@ -1,3 +1,7 @@
+---
+publish: true
+---
+
 # MyBatis 知识地图
 
 > MyBatis + MyBatisPlus 核心知识梳理，聚焦 AI 辅助开发视角。

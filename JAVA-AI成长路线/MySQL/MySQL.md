@@ -1,3 +1,7 @@
+---
+publish: true
+---
+
 # MySQL 知识地图
 
 > MySQL 核心机制梳理，面向 AI 辅助开发（vibe coding）视角。

@@ -1,3 +1,7 @@
+---
+publish: true
+---
+
 # MyBatisPlus 核心
 
 ---

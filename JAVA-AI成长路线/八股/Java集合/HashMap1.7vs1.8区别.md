@@ -1,3 +1,7 @@
+---
+publish: true
+---
+
 # HashMap JDK 1.7 vs 1.8 区别
 
 > 参考资料：阿里云开发者社区、掘金、CSDN、博客园等多源整合
