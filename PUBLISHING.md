@@ -24,6 +24,26 @@ tags:
 - `title` / `description` / `tags` 都是可选的。`tags` 会映射成博客的 WordPress 标签（不存在会自动创建）。
 - `publish` 必须是布尔值 `true`。写成 `"true"`（字符串）不会生效。
 
+## 批量标记（一次标记整个目录）
+
+不想手动一篇篇加 `publish: true`？用仓库里现成的脚本一键批量加：
+
+```bash
+# 标记整个目录下所有笔记
+python3 scripts/mark_publish.py "JAVA-AI成长路线"
+
+# 只标记某个模块（比如以后新增的模块）
+python3 scripts/mark_publish.py "JAVA-AI成长路线/Redis"
+
+# 先预览会标记哪些文件，不写盘
+python3 scripts/mark_publish.py "JAVA-AI成长路线" --dry-run
+```
+
+- 脚本默认排除个人/元笔记（如 `规划/`、`JVM/`、`项目复盘/`、`复习追踪表.md`、所有 `规则说明.md`、空文件）。
+- 想额外排除某些文件：追加 `--exclude "相对路径"`。
+- 已带 `publish: true` 的文件不会被重复修改，正文一律不动。
+- 批量标记后记得 **push**（Obsidian Git: Push 或等每日自动备份），才会触发同步。
+
 ## 同步时机
 
 - 每次 obsidian-git 自动备份 push 到 GitHub 后，GitHub Actions 会自动跑同步。
