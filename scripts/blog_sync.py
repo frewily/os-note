@@ -74,17 +74,18 @@ def parse_args(argv: list[str]) -> argparse.Namespace:
 
 def load_state(path: str) -> dict:
     if not os.path.exists(path):
-        return {"version": 1, "notes": {}, "tags": {}, "media": {}}
+        return {"version": 1, "notes": {}, "tags": {}, "cats": {}, "media": {}}
     try:
         with open(path, encoding="utf-8") as fh:
             st = json.load(fh)
         st.setdefault("notes", {})
         st.setdefault("tags", {})
+        st.setdefault("cats", {})
         st.setdefault("media", {})
         return st
     except (json.JSONDecodeError, OSError) as exc:
         warn(f"state file {path} unreadable ({exc}); starting fresh")
-        return {"version": 1, "notes": {}, "tags": {}, "media": {}}
+        return {"version": 1, "notes": {}, "tags": {}, "cats": {}, "media": {}}
 
 
 def save_state(path: str, state: dict) -> None:
@@ -177,6 +178,24 @@ def extract_tags(meta: dict) -> list[str]:
     if isinstance(tags, list):
         return [t.strip() for t in tags if isinstance(t, str) and t.strip()]
     return []
+
+
+def derive_categories(rel: str) -> list[str]:
+    """Module-level category derived from the note's relative path.
+
+    A note is categorized by the first folder under the top-level content
+    directory. Examples (vault root = repo root):
+      JAVA-AI成长路线/Docker/1-镜像与容器.md  -> ["Docker"]
+      JAVA-AI成长路线/JavaSE/并发/3-线程池.md -> ["JavaSE"]
+      JAVA-AI成长路线/00-知识地图.md          -> ["JAVA-AI成长路线"]
+      README.md                               -> []   (vault root, no category)
+    """
+    parts = rel.replace("\\", "/").split("/")
+    if len(parts) <= 1:
+        return []                       # file at vault root -> no category
+    if len(parts) == 2:
+        return [parts[0]]               # directly under a folder -> that folder
+    return [parts[1]]                   # nested -> first-level module folder
 
 
 # ---------------------------------------------------------------------------
@@ -371,6 +390,28 @@ class BlogClient:
         tag_cache[name] = tid
         return tid
 
+    def ensure_category(self, name: str, cat_cache: dict) -> int:
+        """Find-or-create a top-level WordPress category (parent = 0)."""
+        key = name.lower()
+        if key in cat_cache:
+            return int(cat_cache[key])
+        if self.dry_run:
+            return 0
+        resp = self.request("GET", "/wp-json/wp/v2/categories",
+                            params={"search": name, "per_page": 100})
+        data = resp.json() if resp.status_code == 200 else []
+        for cat in data:
+            if str(cat.get("name", "")).lower() == name.lower() \
+                    and int(cat.get("parent", 0)) == 0:
+                cid = int(cat["id"])
+                cat_cache[key] = cid
+                return cid
+        resp = self.request("POST", "/wp-json/wp/v2/categories", json={"name": name})
+        cat = self._json_or_raise(resp, f"create category '{name}'")
+        cid = int(cat["id"])
+        cat_cache[key] = cid
+        return cid
+
     def get_post_by_slug(self, slug: str) -> Optional[dict]:
         if self.dry_run:
             return None
@@ -464,6 +505,7 @@ def main(argv: list[str]) -> int:
 
     media_map = state["media"]
     tag_cache = state["tags"]
+    cat_cache = state["cats"]
 
     def upload_image(rel: str, src: str) -> str:
         abs_path = os.path.join(vault, rel)
@@ -496,7 +538,9 @@ def main(argv: list[str]) -> int:
     def sync_note(rel: str) -> None:
         meta, body, content_md5 = note_meta[rel]
         rec = state["notes"].get(rel, {})
-        if rec.get("content_md5") == content_md5:
+        cats = derive_categories(rel)
+        cat_md5 = compute_md5(json.dumps(cats, ensure_ascii=False))
+        if rec.get("content_md5") == content_md5 and rec.get("cat_md5") == cat_md5:
             stats["skipped"] += 1
             log(f"  [skip] {rel}")
             return
@@ -519,6 +563,15 @@ def main(argv: list[str]) -> int:
                 except BlogSyncError as exc:
                     errors.append(f"{rel}: tag '{t}': {exc}")
             payload["tags"] = tag_ids
+        if cats:
+            cat_ids = []
+            for c in cats:
+                try:
+                    cat_ids.append(client.ensure_category(c, cat_cache))
+                except BlogSyncError as exc:
+                    errors.append(f"{rel}: category '{c}': {exc}")
+            if cat_ids:
+                payload["categories"] = cat_ids
         desc = meta.get("description")
         if isinstance(desc, str) and desc.strip():
             payload["excerpt"] = desc.strip()
@@ -554,6 +607,7 @@ def main(argv: list[str]) -> int:
             "slug": slug,
             "link": link,
             "content_md5": content_md5,
+            "cat_md5": cat_md5,
             "rendered_md5": compute_md5(html),
         }
         link_map[rel] = link
@@ -582,9 +636,19 @@ def main(argv: list[str]) -> int:
         rendered_md5 = compute_md5(html)
         if rec.get("rendered_md5") == rendered_md5:
             continue
+        p2cats = derive_categories(rel)
         payload = {"title": extract_title(meta, body, rel),
                    "content": html,
                    "slug": rec.get("slug") or slugify(rel)}
+        if p2cats:
+            ids = []
+            for c in p2cats:
+                try:
+                    ids.append(client.ensure_category(c, cat_cache))
+                except BlogSyncError as exc:
+                    errors.append(f"{rel} (pass2): category '{c}': {exc}")
+            if ids:
+                payload["categories"] = ids
         try:
             if not args.dry_run:
                 client.update_post(rec["wp_id"], payload)

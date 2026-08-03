@@ -44,6 +44,20 @@ python3 scripts/mark_publish.py "JAVA-AI成长路线" --dry-run
 - 已带 `publish: true` 的文件不会被重复修改，正文一律不动。
 - 批量标记后记得 **push**（Obsidian Git: Push 或等每日自动备份），才会触发同步。
 
+## 自动分类（按文件夹）
+
+发布到博客时，文章会自动归入 WordPress 分类，分类名取自笔记在仓库里的**模块文件夹**（无需在 WP 后台手动建分类）：
+
+| 笔记路径 | 博客分类 |
+|---------|---------|
+| `JAVA-AI成长路线/Docker/1-镜像与容器.md` | `Docker` |
+| `JAVA-AI成长路线/JavaSE/并发/3-线程池.md` | `JavaSE`（嵌套的并发/集合归到所属模块） |
+| `JAVA-AI成长路线/算法套路/回溯/46-全排列.md` | `算法套路` |
+| `JAVA-AI成长路线/00-知识地图.md` | `JAVA-AI成长路线` |
+
+规则：取 `JAVA-AI成长路线/` 下的**第一层文件夹**作为分类；直接在 `JAVA-AI成长路线/` 根目录下的笔记归到顶层分类。
+重跑同步会自动给已发布的旧文章补上分类，URL 不变。
+
 ## 同步时机
 
 - 每次 obsidian-git 自动备份 push 到 GitHub 后，GitHub Actions 会自动跑同步。
