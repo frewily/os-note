@@ -13,6 +13,7 @@
 """
 import argparse
 import pathlib
+import re
 import sys
 
 # 默认排除：相对目标目录的路径后缀，命中即跳过
@@ -43,18 +44,17 @@ def add_publish(text: str):
         if end is None:
             return None, None  # frontmatter 未闭合，跳过不动
         body = lines[1:end]
-        # 找已有 publish 字段
+        # 找已有的 publish 字段（严格匹配键名，published: 等其它以 publish 开头的键不误伤）
         pub = None
         for j, l in enumerate(body):
-            if l.strip().startswith("publish"):
+            if re.match(r"^publish\s*:", l.strip()):
                 pub = j
                 break
         if pub is not None:
-            key, _, rest = body[pub].partition(":")
-            newline = f"{key.strip()}: true\n"
-            if rest.strip() == "true":
+            rest = body[pub].partition(":")[2].strip()
+            if rest == "true":
                 return text, False  # 已是 true
-            body[pub] = newline
+            body[pub] = "publish: true\n"
         else:
             body.insert(0, "publish: true\n")
         lines[1:end] = body
