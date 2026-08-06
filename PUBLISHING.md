@@ -76,6 +76,32 @@ python3 scripts/mark_publish.py "JAVA-AI成长路线" --dry-run
 
 > 重命名已发布笔记前请三思，或用手动方式处理旧文章。
 
+## 同步流程（原理）
+
+```
+┌─────────────┐  ① obsidian-git 自动备份   ┌──────────┐  ③ GitHub Actions 触发   ┌──────────┐
+│  Obsidian   │ ─────────────────────────> │  GitHub  │ ─────────────────────> │ WordPress │
+│  （本地笔记） │     每天 commit + push      │  私有仓库  │                         │  博客     │
+└─────────────┘                           └──────────┘   ② 跑 blog_sync.py      └──────────┘
+```
+
+1. **标记**：笔记 frontmatter 加 `publish: true`，只有标记过的笔记才会被同步。
+2. **推送**：obsidian-git 每天自动 commit + push 到 GitHub（记录形如 `vault backup: 2026-08-03 20:08:15`）。
+3. **触发**：GitHub Actions 监测到 push 触及 `**.md`，就在云上虚拟机里装依赖、跑同步脚本。
+4. **同步**（`scripts/blog_sync.py` 全量扫描、幂等、自愈）：
+   - **过滤**：扫描整个仓库所有 `.md`，只保留带 `publish: true` 的。
+   - **比对**：每篇算内容 MD5，跟上次同步状态 `.blog-sync-state.json` 对比：
+     - 没变 → `[skip]`（省 API 请求）
+     - 变了 → `[UPDATE]` 更新同一篇文章
+     - 没见过 → `[CREATE]` 新建文章
+   - **渲染**：Markdown → HTML，同时处理 wiki-link（`[[xxx]]` 变成文章真实 URL 的超链接）和本地图片（上传到 WP 媒体库）。
+   - **发布**：调 WordPress REST API（应用密码 Basic Auth），`POST /posts` 建文章、`POST /categories` 建分类、`POST /tags` 建标签。
+   - **回写**：把每篇文章的 `wp_id` / URL / MD5 存回 state 文件。
+   - **两遍渲染**：新文章发布前 URL 未知，先按预测 URL 创建；拿到真实 URL 后把所有已发布文章重渲染一遍，让跨文章链接收敛。
+5. **收尾**：workflow 把更新的 state 文件提交回仓库（`.json` 不触发 `**.md` 过滤，不会无限循环）。
+
+**为什么不会重复发文章？** 靠 state 文件里的 `wp_id` + MD5：每次全量扫描，没变的直接跳过，改过的用 `wp_id` 走更新而不是新建。
+
 ## 首次部署（一次性设置）
 
 > 以下三步需要你手动完成，脚本和 workflow 已经就位。
