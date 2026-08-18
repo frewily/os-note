@@ -82,16 +82,6 @@ agent 这个领域，关键词从 prompt engineering 变到 context engineering�
 
 这篇文章也是写给自己看的。如果你也在入门 agent，希望这些踩过的坑能帮你少走点弯路。后端这套东西看着枯燥，但它是 agent 能不能落地的命门。补上它，做的 agent 才有可能从 demo 走到生产。
 
-[#找AI开发岗，需要做哪些准备？#](https://www.nowcoder.com/creation/subject/f95ff273e1af43238f62fbb2972e4d4b)
-
-35 297 864
-
-浏览 1w
-
-大家都在搜：agent实习
-
-收到6人送花6朵
-
 一键发评
 
 \[赞\]
