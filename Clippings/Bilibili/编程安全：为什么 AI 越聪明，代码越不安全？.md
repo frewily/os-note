@@ -1,18 +1,24 @@
 ---
-title: "【城】为什么 AI 越聪明，写的代码反而越不安全？| VibeCoding 安全分析 【B站AI创造公开赛】"
-url: "https://www.bilibili.com/video/BV1YruC6iEKN/"
-bvid: "BV1YruC6iEKN"
+title: AI 编程安全：为什么 AI 越聪明，代码越不安全？
+url: https://www.bilibili.com/video/BV1YruC6iEKN/
+bvid: BV1YruC6iEKN
 cid: "40829455468"
-author: "网络小白_Uncle城"
-upload_date: "2026-08-13"
-subtitle_lang: "中文"
-created: "2026-08-18"
-tags: ["clippings", "bilibili", "AI安全", "VibeCoding", "漏洞分析"]
+author: 网络小白_Uncle城
+upload_date: 2026-08-13
+subtitle_lang: 中文
+created: 2026-08-18
+tags:
+  - clippings
+  - bilibili
+  - AI安全
+  - VibeCoding
+  - 漏洞分析
+publish: true
 ---
 
 <iframe src="https://player.bilibili.com/player.html?aid=117080305180418&bvid=BV1YruC6iEKN&cid=40829455468&page=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allow="fullscreen; picture-in-picture" allowfullscreen="true" style="height:100%;width:100%; aspect-ratio: 16 / 9;"> </iframe>
 
-# 【城】为什么 AI 越聪明，写的代码反而越不安全？| VibeCoding 安全分析
+# AI 编程安全：为什么 AI 越聪明，代码越不安全？
 
 > [!info] 整理说明
 > 本文由视频字幕整理而来，修正了语音识别中的错别字/同音词（尤其是工具名与数字），并按主题重新组织成章节。关键数据均保留原意。相关项目见文末。
