@@ -1,12 +1,12 @@
 ---
-title: "月之暗面 Agent开发岗，太难了！！！_牛客网"
-source: "https://www.nowcoder.com/discuss/911372795601248256?sourceSSR=users"
+title: 月之暗面 Agent开发岗，太难了！！！_牛客网
+source: https://www.nowcoder.com/discuss/911372795601248256?sourceSSR=users
 author:
-published:
+published: true
 created: 2026-08-18
-description: "月之暗面 Agent开发岗，凉凉！！！面完出来我在地铁上坐过了三站。不是难过，是脑子被掏空之后的那种呆滞。面试官揪着“记忆”这一个点，换了六种姿势盘问我，我差点以为自己没长脑子。先说下背景 面的岗位是 Agent开发，方向是大模型应用落地。面试官是典型的技术流，说话不快，但每个问题都像手术刀——先切_牛客网_牛客在手,offer不愁"
+description: 月之暗面 Agent开发岗，凉凉！！！面完出来我在地铁上坐过了三站。不是难过，是脑子被掏空之后的那种呆滞。面试官揪着“记忆”这一个点，换了六种姿势盘问我，我差点以为自己没长脑子。先说下背景 面的岗位是 Agent开发，方向是大模型应用落地。面试官是典型的技术流，说话不快，但每个问题都像手术刀——先切_牛客网_牛客在手,offer不愁
 tags:
-  - "clippings"
+  - clippings
 ---
 [![头像](https://uploadfiles.nowcoder.com/images/20260813/6402022_1786629692936/E2BB4E6C0666DF6F99D6A2A58463BC37?x-oss-process=image%2Fresize%2Cw_72%2Ch_72%2Cm_mfit)](https://www.nowcoder.com/users/6402022)
 
