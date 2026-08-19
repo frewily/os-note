@@ -42,9 +42,9 @@ https://www\.bilibili\.com/video/BV1Z1XQYmE1h
 
 - JavaSE \- 建议20 \- 25天学完 \- 重要程度5\.0 \- 相当于基础，主要学Java基本语法
 
-![image\.png](图片和附件/image 19.png)
+![image\.png](assets/Java学习路线/image 19.png)
 
-![image\.png](图片和附件/image 3.png)
+![image\.png](assets/Java学习路线/image 3.png)
 
 https://www\.bilibili\.com/video/BV17F411T7Ao/
 
@@ -56,7 +56,7 @@ https://www\.bilibili\.com/video/BV1yW4y1Y7Ms/
 
 - MySQL \- 建议4 \- 5天学完 \- 重要程度5\.0 \- 八股四大件之一，面试八股重灾区。
 
-![image\.png](图片和附件/image 18.png)
+![image\.png](assets/Java学习路线/image 18.png)
 
 https://www\.bilibili\.com/video/BV1Kr4y1i7ru/
 
@@ -66,7 +66,7 @@ https://www\.bilibili\.com/video/BV1Kr4y1i7ru/
 
 - JDBC \- 建议0\.5天学完 \- 重要程度2\.0 \- 主要是把MySQL和Java结合起来，如何用Java操作MySQL，但是已被框架封装，了解即可
 
-![image\.png](图片和附件/image 9.png)
+![image\.png](assets/Java学习路线/image 9.png)
 
 https://www\.bilibili\.com/video/BV1s3411K7jH/
 
@@ -74,7 +74,7 @@ https://www\.bilibili\.com/video/BV1s3411K7jH/
 
 - JavaWeb \- 建议3\-4天学完 \- 重要程度3\.8 \- 初步接触框架，感受Java能干啥
 
-![image\.png](图片和附件/image 22.png)
+![image\.png](assets/Java学习路线/image 22.png)
 
     https://www\.bilibili\.com/video/BV1m84y1w7Tb/
 
@@ -88,7 +88,7 @@ https://www\.bilibili\.com/video/BV1s3411K7jH/
 
 黑马路线：
 
-![image\.png](图片和附件/image 25.png)
+![image\.png](assets/Java学习路线/image 25.png)
 
 https://www\.bilibili\.com/video/BV1Fi4y1S7ix/
 
@@ -96,11 +96,11 @@ https://www\.bilibili\.com/video/BV1Fi4y1S7ix/
 
 动力节点路线：
 
-![image\.png](图片和附件/image 1.png)
+![image\.png](assets/Java学习路线/image 1.png)
 
-![image\.png](图片和附件/image 13.png)
+![image\.png](assets/Java学习路线/image 13.png)
 
-![image\.png](图片和附件/image 26.png)
+![image\.png](assets/Java学习路线/image 26.png)
 
 https://www\.bilibili\.com/video/BV1JP4y1Z73S/
 
@@ -112,7 +112,7 @@ https://www\.bilibili\.com/video/BV1sC411L76f
 
 - Git \- 建议1\-2天学完 \- 重要程度4\.3 \- 全世界都在用的代码管理工具，企业必用，但面试不问，因为已经默认你会这项技能了。
 
-![image\.png](图片和附件/image 12.png)
+![image\.png](assets/Java学习路线/image 12.png)
 
 https://www\.bilibili\.com/video/BV1pX4y1S7Dq/
 
@@ -122,7 +122,7 @@ https://www\.bilibili\.com/video/BV1pX4y1S7Dq/
 
 - linux基本命令 \- 建议1\-2天学完 \- 重要程度4\.3 \- 全世界都在用的操作系统linux，熟悉基本命令就行，企业里大概率是能用上的，查日志啥的基本都是需要登进linux机器上进行操作。
 
-![image\.png](图片和附件/image 15.png)
+![image\.png](assets/Java学习路线/image 15.png)
 
 https://www\.bilibili\.com/video/BV1cq421w72c/
 
@@ -132,7 +132,7 @@ https://www\.bilibili\.com/video/BV1cq421w72c/
 
 - SpringBoot \- 建议4\-5天学完 \- 重要程度4\.2 \- 现在最主流的框架，但面试问的相对较少，但一定得会。
 
-![image\.png](图片和附件/image 8.png)
+![image\.png](assets/Java学习路线/image 8.png)
 
 https://www\.bilibili\.com/video/BV15b4y1a7yG/
 
@@ -142,7 +142,7 @@ https://www\.bilibili\.com/video/BV15b4y1a7yG/
 
 - Redis \- 建议8\-10天学完 \- 重要程度5\.0 \- 八股四大件之一，面试八股重灾区。
 
-![image\.png](图片和附件/image 11.png)
+![image\.png](assets/Java学习路线/image 11.png)
 
 https://www\.bilibili\.com/video/BV1cr4y1671t/
 
@@ -150,7 +150,7 @@ https://www\.bilibili\.com/video/BV1cr4y1671t/
 
 - SpringCloud \- 建议3\-4天学完 \- 重要程度4\.4 \- 现在非常流行的微服务，但面试问的相对较少。
 
-![image\.png](图片和附件/image 4.png)
+![image\.png](assets/Java学习路线/image 4.png)
 
 https://www\.bilibili\.com/video/BV1LQ4y127n4/
 
@@ -160,7 +160,7 @@ https://www\.bilibili\.com/video/BV1LQ4y127n4/
 
 - RocketMQ \- 建议1\-2天学完 \- 重要程度4\.9 \- 除八股四大件之外的最重要的点，和Kafka之间挑一个学就行，我学的是RockeMQ。
 
-![image\.png](图片和附件/image 21.png)
+![image\.png](assets/Java学习路线/image 21.png)
 
 https://www\.bilibili\.com/video/BV1AU4y157LX/
 
@@ -168,7 +168,7 @@ https://www\.bilibili\.com/video/BV1AU4y157LX/
 
 - JVM \- 建议5\-6天学完 \- 重要程度5\.0 \- 八股四大件之一，面试八股重灾区。
 
-![image\.png](图片和附件/image 16.png)
+![image\.png](assets/Java学习路线/image 16.png)
 
 https://www\.bilibili\.com/video/BV1yE411Z7AP/
 
@@ -176,7 +176,7 @@ https://www\.bilibili\.com/video/BV1yE411Z7AP/
 
 - JUC \- 建议8\-9天学完 \- 重要程度5\.0 \- 八股四大件之一，面试八股重灾区。
 
-![image\.png](图片和附件/image 20.png)
+![image\.png](assets/Java学习路线/image 20.png)
 
 https://www\.bilibili\.com/video/BV16J411h7Rd/
 
@@ -194,13 +194,13 @@ https://www\.bilibili\.com/video/BV16J411h7Rd/
 
 - Spring高级
 
-![image\.png](图片和附件/image 17.png)
+![image\.png](assets/Java学习路线/image 17.png)
 
 https://www\.bilibili\.com/video/BV1P44y1N7QG/
 
 - Dubbo
 
-![image\.png](图片和附件/image 23.png)
+![image\.png](assets/Java学习路线/image 23.png)
 
 https://www\.bilibili\.com/video/BV1VE411q7dX/
 
@@ -216,7 +216,7 @@ https://xiaolincoding\.com/network/
 
 - 设计模式
 
-![image\.png](图片和附件/image 5.png)
+![image\.png](assets/Java学习路线/image 5.png)
 
 https://www\.bilibili\.com/video/BV1Np4y1z7BU/
 
@@ -224,19 +224,19 @@ https://www\.bilibili\.com/video/BV1Np4y1z7BU/
 
 - Netty
 
-![image\.png](图片和附件/image 24.png)
+![image\.png](assets/Java学习路线/image 24.png)
 
 https://www\.bilibili\.com/video/BV1py4y1E7oA/
 
 - ShardingSphere
 
-![image\.png](图片和附件/image 7.png)
+![image\.png](assets/Java学习路线/image 7.png)
 
 https://www\.bilibili\.com/video/BV1ta411g7Jf/
 
 - Zookeeper
 
-![image\.png](图片和附件/image 10.png)
+![image\.png](assets/Java学习路线/image 10.png)
 
 https://www\.bilibili\.com/video/BV1M741137qY/
 
@@ -318,13 +318,13 @@ https://www\.bilibili\.com/video/BV1M741137qY/
 
 算法只需要刷力扣平台（https://leetcode\.cn/studyplan/）上的“hot100”、“LeetCode 75”、“面试经典150”、“高频SQL50题（基础版）”即可！
 
-![image\.png](图片和附件/image.png)
+![image\.png](assets/Java学习路线/image.png)
 
-![image\.png](图片和附件/image 2.png)
+![image\.png](assets/Java学习路线/image 2.png)
 
-![image\.png](图片和附件/image 6.png)
+![image\.png](assets/Java学习路线/image 6.png)
 
-![image\.png](图片和附件/image 14.png)
+![image\.png](assets/Java学习路线/image 14.png)
 
 相信我，刷完这四个，算法这块就过关了，如果你觉得不够，可以再刷个“剑指offer”，我已经帮大家整理好题单了：https://leetcode\.cn/problem\-list/QQcuyKam/
 
