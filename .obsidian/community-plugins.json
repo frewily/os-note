@@ -11,5 +11,6 @@
   "quickadd",
   "obsidian-local-rest-api",
   "notebook-navigator",
-  "i18n"
+  "i18n",
+  "obsidian-style-settings"
 ]

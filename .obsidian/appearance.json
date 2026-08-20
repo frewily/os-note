@@ -1,4 +1,9 @@
 {
   "accentColor": "",
-  "cssTheme": ""
+  "cssTheme": "Blue Topaz",
+  "translucency": true,
+  "interfaceFontFamily": "",
+  "enabledCssSnippets": [
+    "lxgw-wenkai"
+  ]
 }
