@@ -7,7 +7,7 @@ publish: true
 > **模块**：模块六 · HTTPS 与加密  
 > **日期**：2026-06-03  
 > **工具**：curl + Wireshark（en0 网卡）  
-> **目标**：https://www.baidu.com
+> **目标**：[https://www.baidu.com](https://www.baidu.com)
 
 ---
 
