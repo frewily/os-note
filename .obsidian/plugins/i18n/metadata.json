@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 2,
+  "sources": {
+    "nS4zav7ARm2YX9Zla2QoF1b24KOLt5nr": {
+      "id": "nS4zav7ARm2YX9Zla2QoF1b24KOLt5nr",
+      "plugin": "realclaudian",
+      "title": "Claudian",
+      "type": "plugin",
+      "origin": "local",
+      "isActive": true,
+      "checksum": "f03d95b0447aa294aba22ba413b47575f6a14ce1eace2a7aa6302c445af48fa2",
+      "updatedAt": 1787217303989,
+      "createdAt": 1787217298172
+    }
+  }
+}
