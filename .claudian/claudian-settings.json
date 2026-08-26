@@ -6,6 +6,7 @@
   "effortLevel": "max",
   "serviceTier": "default",
   "enableAutoTitleGeneration": true,
+  "titleGenerationLocale": "",
   "titleGenerationModel": "",
   "excludedTags": [],
   "mediaFolder": "",
@@ -24,6 +25,7 @@
   "locale": "zh-CN",
   "providerConfigs": {
     "claude": {
+      "enabled": true,
       "safeMode": "acceptEdits",
       "cliPath": "",
       "cliPathsByHost": {},
@@ -31,6 +33,7 @@
       "enableChrome": false,
       "enableBangBash": false,
       "customModels": "",
+      "defaultModel": "opus",
       "lastModel": "haiku",
       "modelEnvironmentType": "",
       "titleModelEnvironmentType": "",
@@ -52,7 +55,8 @@
       "discoveredModels": [],
       "modelAliases": {},
       "catalogTimestamp": 0,
-      "catalogFingerprint": ""
+      "catalogFingerprint": "",
+      "enableUltraEffort": false
     },
     "opencode": {
       "cliPath": "",
@@ -92,6 +96,10 @@
     }
   },
   "settingsProvider": "claude",
+  "lastSelectedChatModel": {
+    "providerId": "claude",
+    "model": "haiku"
+  },
   "savedProviderModel": {
     "claude": "haiku"
   },
@@ -105,10 +113,20 @@
   },
   "pendingProviderSessionInvalidations": {},
   "lastCustomModel": "",
-  "maxTabs": 3,
+  "maxWarmAgentProcesses": 5,
   "enableAutoScroll": true,
   "deferMathRenderingDuringStreaming": true,
   "expandFileEditsByDefault": false,
   "chatViewPlacement": "right-sidebar",
-  "hiddenProviderCommands": {}
+  "enableDualPane": true,
+  "dualPaneSide": "right",
+  "restoreTabsOnStartup": true,
+  "collabEnabled": false,
+  "collabProjectsFolder": "workspace",
+  "collabGitPath": "",
+  "sessionManagerOrganization": "list",
+  "sessionManagerSort": "last-updated",
+  "pinnedLinkedContentPaths": [],
+  "hiddenProviderCommands": {},
+  "maxTabs": 3
 }
