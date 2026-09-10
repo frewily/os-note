@@ -1,0 +1,17 @@
+{
+    "plugins": {
+        "highlightr-plugin": {
+            "id": "highlightr-plugin",
+            "isApplied": true,
+            "pluginVersion": "1.2.2",
+            "translationVersion": "1.0.0"
+        },
+        "highlightr-plus": {
+            "id": "highlightr-plus",
+            "isApplied": true,
+            "pluginVersion": "1.2.4",
+            "translationVersion": "1.0.0"
+        }
+    },
+    "themes": {}
+}

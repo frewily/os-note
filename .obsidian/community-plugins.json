@@ -12,5 +12,7 @@
   "obsidian-local-rest-api",
   "notebook-navigator",
   "i18n",
-  "obsidian-style-settings"
+  "obsidian-style-settings",
+  "highlightr-plugin",
+  "highlightr-plus"
 ]

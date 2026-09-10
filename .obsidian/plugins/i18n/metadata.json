@@ -9,8 +9,30 @@
       "origin": "local",
       "isActive": true,
       "checksum": "f03d95b0447aa294aba22ba413b47575f6a14ce1eace2a7aa6302c445af48fa2",
-      "updatedAt": 1787217303989,
+      "updatedAt": 1789027996963,
       "createdAt": 1787217298172
+    },
+    "6GLwxB1gciLPkpJVrDuFumN_SBJLNg2i": {
+      "id": "6GLwxB1gciLPkpJVrDuFumN_SBJLNg2i",
+      "plugin": "highlightr-plugin",
+      "title": "Highlightr",
+      "type": "plugin",
+      "origin": "local",
+      "isActive": true,
+      "checksum": "8e895d1218b152cfc61f8dcdf1d6ef9e337a6d366681bfbc84cd1d8aebaffa61",
+      "updatedAt": 1789027817988,
+      "createdAt": 1789027760546
+    },
+    "lhl76bLjpk46MRR8VpRMXzwKfXe6dsBr": {
+      "id": "lhl76bLjpk46MRR8VpRMXzwKfXe6dsBr",
+      "plugin": "highlightr-plus",
+      "title": "Highlightr Plus",
+      "type": "plugin",
+      "origin": "local",
+      "isActive": true,
+      "checksum": "6ce9e156be0b0c9edb20cc794fa44dbe6f9d006d9ec1012a0f68edb41c6e7c78",
+      "updatedAt": 1789027986249,
+      "createdAt": 1789027959627
     }
   }
 }

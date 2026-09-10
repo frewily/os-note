@@ -1,0 +1,1038 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "highlightr-plus",
+        "version": "1.0.0",
+        "title": "Highlightr Plus",
+        "description": "Highlightr Plus Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.2.4",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Highlights & Notes",
+                    "target": "哼，这种小事也需要本芙宁娜大人出马吗？好吧——高亮与笔记，本女王的杰作，拿去便是！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "vault",
+                    "target": "金库"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Entire vault",
+                    "target": "整个金库"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "folder",
+                    "target": "文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Specific folder",
+                    "target": "特定文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Active file only",
+                    "target": "仅当前活动文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "If you like this Plugin and are considering donating to support continued development, use the buttons below!",
+                    "target": "我可是众水、众方、众民与众律法的女王！若你欣赏此插件，并考虑捐赠以支持后续开发，请使用下方按钮——本神恩准你这么做！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "ul",
+                    "target": "ul"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "li",
+                    "target": "li"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "div",
+                    "target": "div"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "span",
+                    "target": "span"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "img",
+                    "target": "img"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "label",
+                    "target": "label"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "textarea",
+                    "target": "textarea"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "input",
+                    "target": "input"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error in updateNotesList:",
+                    "target": "哼，这种小事也需要本芙宁娜大人出马吗？更新笔记列表时出错了："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error in forceUpdate:",
+                    "target": "我可是众水、众方、众民与众律法的女王！强制更新时竟然出错了："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error in onOpen:",
+                    "target": "算了，本神就勉为其难地帮你翻译一下吧。打开时出错了："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error in cleanupNotes:",
+                    "target": "哼，竟敢在本芙宁娜大人的舞台上捣乱！清理笔记时出错了："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error opening notes tab:",
+                    "target": "打开笔记标签页时出错了，真是让本女王操碎了心："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error triggering NotesTab update:",
+                    "target": "触发 NotesTab 更新时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Starting updateNotesList",
+                    "target": "开始更新 updateNotesList"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Markdown leaves found:",
+                    "target": "找到 Markdown 叶子节点："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Processing file:",
+                    "target": "正在处理文件："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "File content loaded:",
+                    "target": "文件内容已加载："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Processing file from vault:",
+                    "target": "正在处理来自 vault 的文件："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Processing mark:",
+                    "target": "正在处理标记："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Found note:",
+                    "target": "找到笔记："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Found tags:",
+                    "target": "找到标签："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Found color:",
+                    "target": "找到颜色："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Found css class:",
+                    "target": "哼，本芙宁娜大人发现了css类："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Initializing Highlightr plugin...",
+                    "target": "正在初始化Highlightr插件...这种小事也要本女王出马吗？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Highlightr plugin initialization complete",
+                    "target": "Highlightr插件初始化完成，不愧是本芙宁娜大人！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Highlightr unloaded",
+                    "target": "Highlightr已卸载，算了，本神勉为其难地接受了。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Cancel",
+                    "target": "取消"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "OK",
+                    "target": "确定"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Choose different name",
+                    "target": "选择其他名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Reuse without migration",
+                    "target": "不迁移直接复用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Reuse and migrate",
+                    "target": "复用并迁移"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose between highlighting with inline CSS or CSS classes. Please note that there are pros and cons to both choices. Inline CSS will keep you from being reliant on external CSS files if you choose to export your notes. CSS classes are more flexible and easier to customize.",
+                    "target": "在行内CSS和CSS类之间选择高亮方式。请注意，两种选择各有利弊。如果你选择导出笔记，行内CSS将使你不必依赖外部CSS文件。CSS类更灵活，也更容易自定义。哼，本芙宁娜大人可是众水、众方、众民与众律法的女王，这种选择当然要慎重！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Depending on your design aesthetic, you may want to customize the style of your highlights. Choose from an assortment of different highlighter styles by using the dropdown. Depending on your theme, this plugin's CSS may be overriden.",
+                    "target": "哼，这种小事也需要本芙宁娜大人出马吗？根据你的设计美学，你或许想要自定义高亮样式。使用下拉菜单从各种不同的高亮笔样式中进行选择吧。根据你的主题不同，本插件的 CSS 可能会被覆盖哦。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Automatically open and focus the Highlights & Notes tab when a file with highlights is opened.",
+                    "target": "当打开带有高亮的文件时，自动打开并聚焦「高亮与笔记」标签页。这可是众水、众方、众民与众律法的女王赐予你的便利！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Controls which files are scanned when checking and migrating class conflicts. Narrower scope reduces path exposure.",
+                    "target": "控制在检查与迁移类名冲突时扫描哪些文件。范围越窄，路径暴露越少。算了，本神就勉为其难地帮你翻译一下吧。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Folder path relative to vault root used for conflict scan/migration.",
+                    "target": "相对于库根目录的文件夹路径，用于冲突扫描/迁移。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Conflict checks can scan note paths in the selected scope. Highlightr+ performs scans only on explicit save/migrate action and does not persist or transmit scanned file path lists.",
+                    "target": "冲突检查可以在所选范围内扫描笔记路径。Highlightr+ 仅在显式执行保存/迁移操作时进行扫描，不会持久化或传输已扫描的文件路径列表。哼，本芙宁娜大人可是很注重隐私的！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Create new highlight colors by providing a color name and using the color picker to set the hex code value. Don't forget to save the color before exiting the color picker. Drag and drop the highlight color to change the order for your highlighter component.",
+                    "target": "通过提供颜色名称并使用取色器设置十六进制色值来创建新的高亮颜色。退出取色器前别忘了保存颜色哦。拖放高亮颜色即可更改高亮笔组件的顺序。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Highlightr+ Plugin",
+                    "target": "Highlightr+ 插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Choose highlight method",
+                    "target": "选择高亮方式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Choose highlight style",
+                    "target": "选择高亮样式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Focus Highlights & Notes",
+                    "target": "聚焦「高亮与笔记」"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Vault scan scope for conflict checks",
+                    "target": "冲突检查的保险库扫描范围"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Conflict scan folder",
+                    "target": "冲突扫描文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Privacy note",
+                    "target": "隐私说明"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Choose highlight colors",
+                    "target": "选择高亮颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Active highlight colors",
+                    "target": "活动高亮颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Inactive highlight colors",
+                    "target": "非活动高亮颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Donate to Chetachi",
+                    "target": "捐赠给 Chetachi"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Donate to Olivier",
+                    "target": "捐赠给 Olivier"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "e.g. Projects/Research",
+                    "target": "例如 Projects/Research"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Color name",
+                    "target": "颜色名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Class name (optional)",
+                    "target": "类名（可选）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Color hex code",
+                    "target": "颜色十六进制代码"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Annotate",
+                    "target": "标注"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Unhighlight",
+                    "target": "取消高亮"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Erase annotation",
+                    "target": "擦除标注"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Erase highlight & annotation",
+                    "target": "擦除高亮与标注"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Edit annotation",
+                    "target": "编辑标注"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Reactivate",
+                    "target": "重新激活"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Remove",
+                    "target": "移除"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Save",
+                    "target": "保存"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Choose a different highlight name or class to keep both colors.",
+                    "target": "哼，这种小事也需要本芙宁娜大人出马吗？听着——选择另一个高亮名称或类别，好让两种颜色都保留下来吧！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "This color already exists",
+                    "target": "这个颜色已经存在了哦，真是的，连颜色都要跟本女王大人抢风头吗？"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Highlighter hex code missing",
+                    "target": "高亮十六进制代码不见了！喂，这可是众水、众方、众民与众律法的女王在跟你说话呢，快把它找回来！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Highlighter name missing",
+                    "target": "高亮名称缺失了……算了，本神就勉为其难地提醒你一下吧，快去补上！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Highlighter values missing",
+                    "target": "高亮数值缺失了！哎呀，连这点小事都要本芙宁娜大人操心吗？"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Focus must be in editor",
+                    "target": "焦点必须位于编辑器内！哼，舞台的聚光灯当然要照在正确的地方才行！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "HighlightrSettingsTabsContainer",
+                    "target": "HighlightrSettingsTabsContainer"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "highlightr-message highlightr-empty-state",
+                    "target": "highlightr-message highlightr-empty-state"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "id",
+                    "source": "unhighlight",
+                    "target": "unhighlight"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "filter",
+                    "target": "filter"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "choose",
+                    "target": "选择"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "start",
+                    "target": "开始"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "clone",
+                    "target": "克隆"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "change",
+                    "target": "变更"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "unchoose",
+                    "target": "取消选择"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "add",
+                    "target": "添加"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "remove",
+                    "target": "移除"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "sort",
+                    "target": "排序"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "update",
+                    "target": "更新"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "end",
+                    "target": "结束"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open Highlightr",
+                    "target": "打开 Highlightr"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Remove highlight",
+                    "target": "移除高亮"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "This action will permanently remove the highlight color. In the future, using the same color name for a new highlight color may create a conflict.",
+                    "target": "此操作将永久移除该高亮颜色。今后，若使用相同颜色名称创建新的高亮颜色，可能会产生冲突。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Potential highlight class conflict",
+                    "target": "潜在的高亮类冲突"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Top impacted files:",
+                    "target": "受影响最大的文件："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Do you wish to overwrite highlight colors using the same name or choose a different highlight color name to keep both colors?",
+                    "target": "您希望使用相同名称覆盖高亮颜色，还是选择不同的高亮颜色名称以保留两种颜色？"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Created by ",
+                    "target": "由 "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Chetachi 👩🏽‍💻",
+                    "target": "Chetachi 👩🏽‍💻"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": " and ",
+                    "target": " 和 "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Olivier 👨🏼‍💻",
+                    "target": "Olivier 👨🏼‍💻"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Lowlight",
+                    "target": "低光"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Floating",
+                    "target": "悬浮"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Realistic",
+                    "target": "写实"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Rounded",
+                    "target": "圆角"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Appear in the context menu and the command palette.",
+                    "target": "在右键菜单和命令面板中显示。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Annotation:",
+                    "target": "注释："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Tags:",
+                    "target": "标签："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No markdown file in focus",
+                    "target": "当前没有聚焦的 Markdown 文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Error processing markdown content",
+                    "target": "处理 Markdown 内容时出错"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No highlights found",
+                    "target": "未找到高亮"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Highlights & Notes",
+                    "target": "高光与笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Failed to load Highlights & Notes side view",
+                    "target": "加载高光与笔记侧视图失败"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "type",
+                    "source": "text",
+                    "target": "text"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "setButtonText(\"Choose different name\")",
+                    "target": "setButtonText(\"Choose different name\")"
+                },
+                {
+                    "source": "setButtonText(\"Reuse without migration\")",
+                    "target": "setButtonText(\"Reuse without migration\")"
+                },
+                {
+                    "source": "setButtonText(\"Reuse and migrate\")",
+                    "target": "setButtonText(\"Reuse and migrate\")"
+                },
+                {
+                    "source": "Notice(`${highlighter} highlight moved to inactive`)",
+                    "target": "Notice(`${highlighter} highlight moved to inactive`)"
+                },
+                {
+                    "source": "Notice(`${highlighter} highlight permanently deleted`)",
+                    "target": "Notice(`${highlighter} highlight permanently deleted`)"
+                },
+                {
+                    "source": "Notice(`${highlighter} highlight reactivated`)",
+                    "target": "Notice(`${highlighter} highlight reactivated`)"
+                },
+                {
+                    "source": "setName(\"Highlightr+ Plugin\")",
+                    "target": "setName(\"Highlightr+ Plugin\")"
+                },
+                {
+                    "source": "setName(\"Choose highlight method\")",
+                    "target": "setName(\"Choose highlight method\")"
+                },
+                {
+                    "source": "setDesc(`Choose between highlighting with inline CSS or CSS classes. Please note that there are pros and cons to both choices. Inline CSS will keep you from being reliant on external CSS files if you choose to export your notes. CSS classes are more flexible and easier to customize.`)",
+                    "target": "setDesc(`Choose between highlighting with inline CSS or CSS classes. Please note that there are pros and cons to both choices. Inline CSS will keep you from being reliant on external CSS files if you choose to export your notes. CSS classes are more flexible and easier to customize.`)"
+                },
+                {
+                    "source": "setName(\"Choose highlight style\")",
+                    "target": "setName(\"Choose highlight style\")"
+                },
+                {
+                    "source": "setDesc(`Depending on your design aesthetic, you may want to customize the style of your highlights. Choose from an assortment of different highlighter styles by using the dropdown. Depending on your theme, this plugin's CSS may be overriden.`)",
+                    "target": "setDesc(`Depending on your design aesthetic, you may want to customize the style of your highlights. Choose from an assortment of different highlighter styles by using the dropdown. Depending on your theme, this plugin's CSS may be overriden.`)"
+                },
+                {
+                    "source": "setName(\"Focus Highlights & Notes\")",
+                    "target": "setName(\"Focus Highlights & Notes\")"
+                },
+                {
+                    "source": "setDesc(\"Automatically open and focus the Highlights & Notes tab when a file with highlights is opened.\")",
+                    "target": "setDesc(\"Automatically open and focus the Highlights & Notes tab when a file with highlights is opened.\")"
+                },
+                {
+                    "source": "setName(\"Vault scan scope for conflict checks\")",
+                    "target": "setName(\"Vault scan scope for conflict checks\")"
+                },
+                {
+                    "source": "setDesc(\"Controls which files are scanned when checking and migrating class conflicts. Narrower scope reduces path exposure.\")",
+                    "target": "setDesc(\"Controls which files are scanned when checking and migrating class conflicts. Narrower scope reduces path exposure.\")"
+                },
+                {
+                    "source": "setName(\"Conflict scan folder\")",
+                    "target": "setName(\"Conflict scan folder\")"
+                },
+                {
+                    "source": "setDesc(\"Folder path relative to vault root used for conflict scan/migration.\")",
+                    "target": "setDesc(\"Folder path relative to vault root used for conflict scan/migration.\")"
+                },
+                {
+                    "source": "setPlaceholder(\"e.g. Projects/Research\")",
+                    "target": "setPlaceholder(\"e.g. Projects/Research\")"
+                },
+                {
+                    "source": "setName(\"Privacy note\")",
+                    "target": "setName(\"Privacy note\")"
+                },
+                {
+                    "source": "setDesc(\"Conflict checks can scan note paths in the selected scope. Highlightr+ performs scans only on explicit save/migrate action and does not persist or transmit scanned file path lists.\")",
+                    "target": "setDesc(\"Conflict checks can scan note paths in the selected scope. Highlightr+ performs scans only on explicit save/migrate action and does not persist or transmit scanned file path lists.\")"
+                },
+                {
+                    "source": "setName(\"Choose highlight colors\")",
+                    "target": "setName(\"Choose highlight colors\")"
+                },
+                {
+                    "source": "setDesc(`Create new highlight colors by providing a color name and using the color picker to set the hex code value. Don't forget to save the color before exiting the color picker. Drag and drop the highlight color to change the order for your highlighter component.`)",
+                    "target": "setDesc(`Create new highlight colors by providing a color name and using the color picker to set the hex code value. Don't forget to save the color before exiting the color picker. Drag and drop the highlight color to change the order for your highlighter component.`)"
+                },
+                {
+                    "source": "setPlaceholder(\"Color name\")",
+                    "target": "setPlaceholder(\"Color name\")"
+                },
+                {
+                    "source": "setPlaceholder(\"Class name (optional)\")",
+                    "target": "setPlaceholder(\"Class name (optional)\")"
+                },
+                {
+                    "source": "setPlaceholder(\"Color hex code\")",
+                    "target": "setPlaceholder(\"Color hex code\")"
+                },
+                {
+                    "source": "Notice(`Conflict scan scope: ${this.getConflictScanScopeLabel()}`)",
+                    "target": "Notice(`Conflict scan scope: ${this.getConflictScanScopeLabel()}`)"
+                },
+                {
+                    "source": "Notice(\"Choose a different highlight name or class to keep both colors.\")",
+                    "target": "Notice(\"Choose a different highlight name or class to keep both colors.\")"
+                },
+                {
+                    "source": "Notice(`Updated ${migration.updatedMarks} highlight(s) across ${migration.fileCount} file(s).`)",
+                    "target": "Notice(`Updated ${migration.updatedMarks} highlight(s) across ${migration.fileCount} file(s).`)"
+                },
+                {
+                    "source": "Notice(\"This color already exists\")",
+                    "target": "Notice(\"This color already exists\")"
+                },
+                {
+                    "source": "Notice(\"Highlighter hex code missing\")",
+                    "target": "Notice(\"Highlighter hex code missing\")"
+                },
+                {
+                    "source": "Notice(\"Highlighter name missing\")",
+                    "target": "Notice(\"Highlighter name missing\")"
+                },
+                {
+                    "source": "Notice(\"Highlighter values missing\")",
+                    "target": "Notice(\"Highlighter values missing\")"
+                },
+                {
+                    "source": "setName(\"Active highlight colors\")",
+                    "target": "setName(\"Active highlight colors\")"
+                },
+                {
+                    "source": "setName(\"Inactive highlight colors\")",
+                    "target": "setName(\"Inactive highlight colors\")"
+                },
+                {
+                    "source": "appendText(\"If you like this Plugin and are considering donating to support continued development, use the buttons below!\")",
+                    "target": "appendText(\"If you like this Plugin and are considering donating to support continued development, use the buttons below!\")"
+                },
+                {
+                    "source": "setName(\"Donate to Chetachi\")",
+                    "target": "setName(\"Donate to Chetachi\")"
+                },
+                {
+                    "source": "setName(\"Donate to Olivier\")",
+                    "target": "setName(\"Donate to Olivier\")"
+                },
+                {
+                    "source": "setTitle(\"Erase annotation\")",
+                    "target": "setTitle(\"Erase annotation\")"
+                },
+                {
+                    "source": "setTitle(\"Erase highlight & annotation\")",
+                    "target": "setTitle(\"Erase highlight & annotation\")"
+                },
+                {
+                    "source": "setTitle(\"Edit annotation\")",
+                    "target": "setTitle(\"Edit annotation\")"
+                },
+                {
+                    "source": "log(\"Starting updateNotesList\")",
+                    "target": "log(\"Starting updateNotesList\")"
+                },
+                {
+                    "source": "log(`Highlightr v${this.manifest.version} loaded`)",
+                    "target": "log(`Highlightr v${this.manifest.version} loaded`)"
+                },
+                {
+                    "source": "log('Initializing Highlightr plugin...')",
+                    "target": "log('Initializing Highlightr plugin...')"
+                },
+                {
+                    "source": "log('Highlightr plugin initialization complete')",
+                    "target": "log('Highlightr plugin initialization complete')"
+                },
+                {
+                    "source": "log(\"Highlightr unloaded\")",
+                    "target": "log(\"Highlightr unloaded\")"
+                },
+                {
+                    "source": "name = \"SuppressedError\"",
+                    "target": "name = \"SuppressedError\""
+                },
+                {
+                    "source": "name : ''",
+                    "target": "name : ''"
+                },
+                {
+                    "source": "name: 'filter'",
+                    "target": "name: 'filter'"
+                },
+                {
+                    "source": "name: 'choose'",
+                    "target": "name: 'choose'"
+                },
+                {
+                    "source": "name: 'start'",
+                    "target": "name: 'start'"
+                },
+                {
+                    "source": "name: 'clone'",
+                    "target": "name: 'clone'"
+                },
+                {
+                    "source": "name: 'change'",
+                    "target": "name: 'change'"
+                },
+                {
+                    "source": "name: 'unchoose'",
+                    "target": "name: 'unchoose'"
+                },
+                {
+                    "source": "name: 'add'",
+                    "target": "name: 'add'"
+                },
+                {
+                    "source": "name: 'remove'",
+                    "target": "name: 'remove'"
+                },
+                {
+                    "source": "name: 'sort'",
+                    "target": "name: 'sort'"
+                },
+                {
+                    "source": "name: 'update'",
+                    "target": "name: 'update'"
+                },
+                {
+                    "source": "name: 'end'",
+                    "target": "name: 'end'"
+                },
+                {
+                    "source": "text: \"This action will permanently remove the highlight color. In the future, using the same color name for a new highlight color may create a conflict.\"",
+                    "target": "text: \"This action will permanently remove the highlight color. In the future, using the same color name for a new highlight color may create a conflict.\""
+                },
+                {
+                    "source": "text: \"Potential highlight class conflict\"",
+                    "target": "text: \"Potential highlight class conflict\""
+                },
+                {
+                    "source": "text: `A highlight class conflict was found for ${this.colorName}: ${this.summary.classToken}.`",
+                    "target": "text: `A highlight class conflict was found for ${this.colorName}: ${this.summary.classToken}.`"
+                },
+                {
+                    "source": "text: `Found ${this.summary.totalMarks} matching mark(s) in ${this.summary.fileCount} file(s). New color value: ${this.targetColorHex}.`",
+                    "target": "text: `Found ${this.summary.totalMarks} matching mark(s) in ${this.summary.fileCount} file(s). New color value: ${this.targetColorHex}.`"
+                },
+                {
+                    "source": "text: `${entry.color}: ${entry.count}`",
+                    "target": "text: `${entry.color}: ${entry.count}`"
+                },
+                {
+                    "source": "text: \"Top impacted files:\"",
+                    "target": "text: \"Top impacted files:\""
+                },
+                {
+                    "source": "text: `${entry.path} (${entry.marks})`",
+                    "target": "text: `${entry.path} (${entry.marks})`"
+                },
+                {
+                    "source": "text: \"Do you wish to overwrite highlight colors using the same name or choose a different highlight color name to keep both colors?\"",
+                    "target": "text: \"Do you wish to overwrite highlight colors using the same name or choose a different highlight color name to keep both colors?\""
+                },
+                {
+                    "source": "text: `class=\"hltr-${highlighterClassName.toLowerCase()}\"`",
+                    "target": "text: `class=\"hltr-${highlighterClassName.toLowerCase()}\"`"
+                },
+                {
+                    "source": "text: \"Created by \"",
+                    "target": "text: \"Created by \""
+                },
+                {
+                    "source": "text: \"Chetachi 👩🏽‍💻\"",
+                    "target": "text: \"Chetachi 👩🏽‍💻\""
+                },
+                {
+                    "source": "text: \" and \"",
+                    "target": "text: \" and \""
+                },
+                {
+                    "source": "text: \"Olivier 👨🏼‍💻\"",
+                    "target": "text: \"Olivier 👨🏼‍💻\""
+                },
+                {
+                    "source": "text: \"Lowlight\"",
+                    "target": "text: \"Lowlight\""
+                },
+                {
+                    "source": "text: \"Floating\"",
+                    "target": "text: \"Floating\""
+                },
+                {
+                    "source": "text: \"Realistic\"",
+                    "target": "text: \"Realistic\""
+                },
+                {
+                    "source": "text: \"Rounded\"",
+                    "target": "text: \"Rounded\""
+                },
+                {
+                    "source": "text: \"Appear in the context menu and the command palette.\"",
+                    "target": "text: \"Appear in the context menu and the command palette.\""
+                },
+                {
+                    "source": "text: \"Annotation:\"",
+                    "target": "text: \"Annotation:\""
+                },
+                {
+                    "source": "text: \"Tags:\"",
+                    "target": "text: \"Tags:\""
+                },
+                {
+                    "source": "text: 'No markdown file in focus'",
+                    "target": "text: 'No markdown file in focus'"
+                },
+                {
+                    "source": "text: 'Error processing markdown content'",
+                    "target": "text: 'Error processing markdown content'"
+                },
+                {
+                    "source": "text: \"No highlights found\"",
+                    "target": "text: \"No highlights found\""
+                },
+                {
+                    "source": "text: \"Highlights & Notes\"",
+                    "target": "text: \"Highlights & Notes\""
+                },
+                {
+                    "source": "text: \"Failed to load Highlights & Notes side view\"",
+                    "target": "text: \"Failed to load Highlights & Notes side view\""
+                },
+                {
+                    "source": "name: \"Open Highlightr\"",
+                    "target": "name: \"Open Highlightr\""
+                },
+                {
+                    "source": "name: \"Remove highlight\"",
+                    "target": "name: \"Remove highlight\""
+                }
+            ]
+        }
+    }
+}
