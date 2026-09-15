@@ -1,0 +1,256 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-enhancing-export",
+        "version": "1.0.0",
+        "title": "Enhancing Export",
+        "description": "Enhancing Export Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.11.3",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "div",
+                    "target": "div"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "button",
+                    "target": "button"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[obsidian-enhancing-export] saveSettings",
+                    "target": "[obsidian-enhancing-export] saveSettings"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "icon",
+                    "source": "document",
+                    "target": "document"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Markdown",
+                    "target": "Markdown"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Markdown (Hugo)",
+                    "target": "Markdown (Hugo)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Html",
+                    "target": "Html"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "TextBundle",
+                    "target": "TextBundle"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Typst",
+                    "target": "Typst"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "PDF",
+                    "target": "PDF"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Word (.docx)",
+                    "target": "Word (.docx)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "OpenOffice",
+                    "target": "OpenOffice"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "RTF",
+                    "target": "RTF"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Epub",
+                    "target": "Epub"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Latex",
+                    "target": "LaTeX"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Media Wiki",
+                    "target": "Media Wiki"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Textile",
+                    "target": "Textile"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Bibliography",
+                    "target": "参考文献"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "PowerPoint (.pptx)",
+                    "target": "PowerPoint (.pptx)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Custom",
+                    "target": "自定义"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "None",
+                    "target": "无"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Dissertation",
+                    "target": "学位论文"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Academic Paper",
+                    "target": "学术论文"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "名称",
+                    "target": "名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "名稱",
+                    "target": "名稱"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Name",
+                    "target": "名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Название",
+                    "target": "名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "pandoc",
+                    "target": "pandoc"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Latex Template",
+                    "target": "LaTeX 模板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "导出设置",
+                    "target": "导出设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "匯出設定",
+                    "target": "导出设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Export Settings",
+                    "target": "导出设置"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "name:\"Markdown (Hugo)\"",
+                    "target": "name:\"Markdown (Hugo)\""
+                },
+                {
+                    "source": "name:\"Word (.docx)\"",
+                    "target": "name:\"Word (.docx)\""
+                },
+                {
+                    "source": "name:\"Media Wiki\"",
+                    "target": "name:\"Media Wiki\""
+                },
+                {
+                    "source": "name:\"PowerPoint (.pptx)\"",
+                    "target": "name:\"PowerPoint (.pptx)\""
+                },
+                {
+                    "source": "name:\"Academic Paper\"",
+                    "target": "name:\"Academic Paper\""
+                },
+                {
+                    "source": "name:\"名称\"",
+                    "target": "name:\"名称\""
+                },
+                {
+                    "source": "name:\"重命名\"",
+                    "target": "name:\"重命名\""
+                },
+                {
+                    "source": "name:\"名稱\"",
+                    "target": "name:\"名稱\""
+                },
+                {
+                    "source": "name:\"重新命名\"",
+                    "target": "name:\"重新命名\""
+                },
+                {
+                    "source": "name:\"Название\"",
+                    "target": "name:\"Название\""
+                },
+                {
+                    "source": "name:\"Переименовать\"",
+                    "target": "name:\"Переименовать\""
+                }
+            ]
+        }
+    }
+}

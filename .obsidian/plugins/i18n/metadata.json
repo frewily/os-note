@@ -1,17 +1,6 @@
 {
   "schemaVersion": 2,
   "sources": {
-    "nS4zav7ARm2YX9Zla2QoF1b24KOLt5nr": {
-      "id": "nS4zav7ARm2YX9Zla2QoF1b24KOLt5nr",
-      "plugin": "realclaudian",
-      "title": "Claudian",
-      "type": "plugin",
-      "origin": "local",
-      "isActive": true,
-      "checksum": "f03d95b0447aa294aba22ba413b47575f6a14ce1eace2a7aa6302c445af48fa2",
-      "updatedAt": 1789027996963,
-      "createdAt": 1787217298172
-    },
     "6GLwxB1gciLPkpJVrDuFumN_SBJLNg2i": {
       "id": "6GLwxB1gciLPkpJVrDuFumN_SBJLNg2i",
       "plugin": "highlightr-plugin",
@@ -33,6 +22,116 @@
       "checksum": "6ce9e156be0b0c9edb20cc794fa44dbe6f9d006d9ec1012a0f68edb41c6e7c78",
       "updatedAt": 1789027986249,
       "createdAt": 1789027959627
+    },
+    "lsnS9OF26LIes4zjc977IOzEdEcx-4-B": {
+      "id": "lsnS9OF26LIes4zjc977IOzEdEcx-4-B",
+      "plugin": "calendar",
+      "title": "Calendar",
+      "type": "plugin",
+      "origin": "local",
+      "isActive": true,
+      "checksum": "ed3ccab99381acddd5c0f957c056d4af1756d984e04f2a2dea01f21ae07e6c34",
+      "updatedAt": 1789028271854,
+      "createdAt": 1789028250084
+    },
+    "-4RrfE0ZfX8kfhPw0TmGAqcjPR2mSNEx": {
+      "id": "-4RrfE0ZfX8kfhPw0TmGAqcjPR2mSNEx",
+      "plugin": "obsidian-excalidraw-plugin",
+      "title": "Excalidraw",
+      "type": "plugin",
+      "origin": "local",
+      "isActive": true,
+      "checksum": "5eae0339f2eb198defb90184bb73998f594542ed905dc9ceb53b8992e0bf8e82",
+      "updatedAt": 1789028376038,
+      "createdAt": 1789028296679
+    },
+    "CUql2EKsYcvRt4bVoNiRqYeJa5eilUbh": {
+      "id": "CUql2EKsYcvRt4bVoNiRqYeJa5eilUbh",
+      "plugin": "obsidian-style-settings",
+      "title": "Style Settings",
+      "type": "plugin",
+      "origin": "local",
+      "isActive": true,
+      "checksum": "b82cbd8f5e46935131b85b7bb6a8aa2e13aff47d1800399af75755c66e36e932",
+      "updatedAt": 1789028644897,
+      "createdAt": 1789028576438
+    },
+    "EEWv0dS8VYQKiwI3r1jB4cY8gfTP9ZD3": {
+      "id": "EEWv0dS8VYQKiwI3r1jB4cY8gfTP9ZD3",
+      "plugin": "recent-files-obsidian",
+      "title": "Recent Files",
+      "type": "plugin",
+      "origin": "local",
+      "isActive": true,
+      "checksum": "6371e06a3664b3510ca807746d96a8d42c5846620c55e406793e6d6908212174",
+      "updatedAt": 1789028701510,
+      "createdAt": 1789028662314
+    },
+    "GbhO1MRv-u53mo3dktwn4hlvGoCst3Am": {
+      "id": "GbhO1MRv-u53mo3dktwn4hlvGoCst3Am",
+      "plugin": "tag-wrangler",
+      "title": "Tag Wrangler",
+      "type": "plugin",
+      "origin": "local",
+      "isActive": true,
+      "checksum": "79d560d65595016c43a2e595bec1e1aebb8f5bb9b327820957f00fce03c9765c",
+      "updatedAt": 1789028742069,
+      "createdAt": 1789028724650
+    },
+    "Oi1ewoqeMjd4GxaTSpBcZy0R9AroPpwL": {
+      "id": "Oi1ewoqeMjd4GxaTSpBcZy0R9AroPpwL",
+      "plugin": "quickadd",
+      "title": "QuickAdd",
+      "type": "plugin",
+      "origin": "local",
+      "isActive": true,
+      "checksum": "dbda9ee2d34ea133176d1654060d696568ba12396767bc4bcb236ee60ac023c3",
+      "updatedAt": 1789028827726,
+      "createdAt": 1789028754317
+    },
+    "pWcYmJfsc4Bp_C3srGwIAOd_gavQRodL": {
+      "id": "pWcYmJfsc4Bp_C3srGwIAOd_gavQRodL",
+      "plugin": "obsidian-enhancing-export",
+      "title": "Enhancing Export",
+      "type": "plugin",
+      "origin": "local",
+      "isActive": true,
+      "checksum": "bd85a5105cc3b9d255bef587c673c1e1bd3b162ae5459567608e7dacdc5a7baf",
+      "updatedAt": 1789029054384,
+      "createdAt": 1789028852474
+    },
+    "mrM_b41NHeIJc5tOUPEM3HTTPXYSceDu": {
+      "id": "mrM_b41NHeIJc5tOUPEM3HTTPXYSceDu",
+      "plugin": "obsidian-custom-attachment-location",
+      "title": "Custom Attachment Location",
+      "type": "plugin",
+      "origin": "local",
+      "isActive": true,
+      "checksum": "9d175fbf22b98ceab5ece6641d201af18d7e00b13742caa234836a62a4f7f8d5",
+      "updatedAt": 1789029003768,
+      "createdAt": 1789028857037
+    },
+    "Pvvq3ix2VgSUUJW3oZKOceBi_4XXy16s": {
+      "id": "Pvvq3ix2VgSUUJW3oZKOceBi_4XXy16s",
+      "plugin": "omnisearch",
+      "title": "Omnisearch",
+      "type": "plugin",
+      "origin": "local",
+      "isActive": true,
+      "checksum": "27e4c6a991fe167f52c539febfeeee851f399567f43a59fd37efde36d7a701a1",
+      "updatedAt": 1789029234904,
+      "createdAt": 1789028865824
+    },
+    "er7i6ELyt5mVr0lAs-CrS3KmUjATQ1Vs": {
+      "id": "er7i6ELyt5mVr0lAs-CrS3KmUjATQ1Vs",
+      "plugin": "notebook-navigator",
+      "title": "Notebook Navigator",
+      "type": "plugin",
+      "origin": "local",
+      "isActive": true,
+      "checksum": "27028163d50ebcbce421ac78dfd8a7be2ec99e25dc9d986d6265a3a1e435777f",
+      "updatedAt": 1789029159656,
+      "createdAt": 1789029157104
     }
   }
 }
