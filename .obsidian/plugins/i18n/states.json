@@ -21,7 +21,7 @@
         "obsidian-excalidraw-plugin": {
             "id": "obsidian-excalidraw-plugin",
             "isApplied": true,
-            "pluginVersion": "2.26.4",
+            "pluginVersion": "2.27.3",
             "translationVersion": "1.0.0"
         },
         "obsidian-style-settings": {
@@ -45,13 +45,13 @@
         "quickadd": {
             "id": "quickadd",
             "isApplied": true,
-            "pluginVersion": "2.23.0",
+            "pluginVersion": "2.25.0",
             "translationVersion": "1.0.0"
         },
         "obsidian-custom-attachment-location": {
             "id": "obsidian-custom-attachment-location",
             "isApplied": true,
-            "pluginVersion": "11.8.0",
+            "pluginVersion": "12.0.1",
             "translationVersion": "1.0.0"
         },
         "obsidian-enhancing-export": {
@@ -63,7 +63,19 @@
         "omnisearch": {
             "id": "omnisearch",
             "isApplied": true,
-            "pluginVersion": "1.30.1",
+            "pluginVersion": "1.31.0",
+            "translationVersion": "1.0.0"
+        },
+        "obsidian-git": {
+            "id": "obsidian-git",
+            "isApplied": true,
+            "pluginVersion": "2.40.0",
+            "translationVersion": "1.0.0"
+        },
+        "realclaudian": {
+            "id": "realclaudian",
+            "isApplied": true,
+            "pluginVersion": "2.2.7",
             "translationVersion": "1.0.0"
         }
     },
