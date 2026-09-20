@@ -132,6 +132,17 @@
       "checksum": "27028163d50ebcbce421ac78dfd8a7be2ec99e25dc9d986d6265a3a1e435777f",
       "updatedAt": 1789029159656,
       "createdAt": 1789029157104
+    },
+    "ELbaSgw5bH9pMdHu-8Mq9fJivNvudtZd": {
+      "id": "ELbaSgw5bH9pMdHu-8Mq9fJivNvudtZd",
+      "plugin": "obsidian-git",
+      "title": "Git",
+      "type": "plugin",
+      "origin": "local",
+      "isActive": true,
+      "checksum": "3fabf1c687053e40b409732a2cf3b8ef874350f9fb07360a75c4fd80fc9945c8",
+      "updatedAt": 1789874381593,
+      "createdAt": 1789874336262
     }
   }
 }
